@@ -67,66 +67,53 @@ actions:
 run_btn = st.button("🚀 Run Benchmark")
 
 if run_btn:
-    # cek placeholder dulu
     if "<YOUR_WALLET_ADDRESS>" in scenario_text or "<RECIPIENT_ADDRESS>" in scenario_text:
         st.error("⚠️ Please replace placeholders <YOUR_WALLET_ADDRESS> and <RECIPIENT_ADDRESS> before running the benchmark.")
     else:
-        # simpan scenario temporer dan run runner
-        os.makedirs(SCENARIO_DIR, exist_ok=True)
-        temp_path = os.path.join(SCENARIO_DIR, "ui_temp_scenario.yaml")
-        try:
-            import yaml
-            parsed = yaml.safe_load(scenario_text)
-            with open(temp_path, "w", encoding="utf-8") as f:
-                yaml.safe_dump(parsed, f)
-        except Exception:
-            with open(temp_path, "w", encoding="utf-8") as f:
-                f.write(scenario_text)
-
-        # jalankan benchmark
-        cmd = ["python", RUNNER_PATH, temp_path]
+        # simpan scenario & jalankan runner
         proc = subprocess.Popen(cmd)
         st.info("⏳ Benchmark running... please wait")
-    try:
-        out, err = proc.communicate(timeout=120)
-    except subprocess.TimeoutExpired:
-        proc.kill()
-        st.error("❌ Benchmark timeout")
-        out, err = b"", b""
-
-    if err and err.strip():
-        st.error(f"Runner error: {err.decode()}")
-
-    if out:
+        
         try:
-            data = json.loads(out.decode())
-            st.success("✅ Benchmark finished")
+            out, err = proc.communicate(timeout=120)
+        except subprocess.TimeoutExpired:
+            proc.kill()
+            st.error("❌ Benchmark timeout")
+            out, err = b"", b""
 
-            # Summary & preview
-            st.write("### Summary", data.get("meta", {}))
-            df = pd.DataFrame(data.get("transactions", []))
-            st.dataframe(df.head(100))
+        if err and err.strip():
+            st.error(f"Runner error: {err.decode()}")
 
-            # Download JSON langsung
-            st.download_button(
-                "⬇️ Download benchmark JSON",
-                data=json.dumps(data, indent=2),
-                file_name="benchmark.json",
-                mime="application/json"
-            )
-
-            # Export CSV / NDJSON in-memory
-            runs_csv = io.StringIO()
-            tx_csv = io.StringIO()
-            df.to_csv(runs_csv, index=False)
-            df.to_csv(tx_csv, index=False)  # sesuaikan field kalau mau beda runs vs tx
-            runs_csv.seek(0)
-            tx_csv.seek(0)
-            st.download_button("⬇️ Download CSV (runs)", data=runs_csv, file_name="bench_runs.csv", mime="text/csv")
-            st.download_button("⬇️ Download CSV (tx)", data=tx_csv, file_name="bench_tx.csv", mime="text/csv")
-
-        except Exception as e:
-            st.error(f"Parse failed: {e}")
+        if out:
+            try:
+                data = json.loads(out.decode())
+                st.success("✅ Benchmark finished")
+    
+                # Summary & preview
+                st.write("### Summary", data.get("meta", {}))
+                df = pd.DataFrame(data.get("transactions", []))
+                st.dataframe(df.head(100))
+    
+                # Download JSON langsung
+                st.download_button(
+                    "⬇️ Download benchmark JSON",
+                    data=json.dumps(data, indent=2),
+                    file_name="benchmark.json",
+                    mime="application/json"
+                )
+    
+                # Export CSV / NDJSON in-memory
+                runs_csv = io.StringIO()
+                tx_csv = io.StringIO()
+                df.to_csv(runs_csv, index=False)
+                df.to_csv(tx_csv, index=False)  # sesuaikan field kalau mau beda runs vs tx
+                runs_csv.seek(0)
+                tx_csv.seek(0)
+                st.download_button("⬇️ Download CSV (runs)", data=runs_csv, file_name="bench_runs.csv", mime="text/csv")
+                st.download_button("⬇️ Download CSV (tx)", data=tx_csv, file_name="bench_tx.csv", mime="text/csv")
+    
+            except Exception as e:
+                st.error(f"Parse failed: {e}")
 
 # --- Upload JSON lama / analisa ---
 st.subheader("📂 Upload JSON Benchmark (optional)")
