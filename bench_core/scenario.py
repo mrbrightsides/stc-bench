@@ -1,11 +1,16 @@
-# bench_core/scenario.py
-import yaml
-from pathlib import Path
+try:
+    import yaml
+except ModuleNotFoundError:
+    print("PyYAML not found! Install via requirements.txt")
+    raise
 
 def load_scenario(path):
-    """Load YAML scenario and return dict."""
-    p = Path(path)
-    if not p.exists():
-        raise FileNotFoundError(f"Scenario file not found: {path}")
-    with p.open("r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+    """
+    Load YAML scenario file and return as dict
+    """
+    with open(path, "r", encoding="utf-8") as f:
+        try:
+            scenario = yaml.safe_load(f)
+        except Exception as e:
+            raise ValueError(f"Failed to parse YAML scenario: {e}")
+    return scenario
