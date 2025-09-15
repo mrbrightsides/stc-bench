@@ -5,10 +5,14 @@ import json
 import glob
 import os
 import pandas as pd
+import sys
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
 from parse_bench_and_bundle import parse_caliper_report, bundle_if_ready
 
-# helper di app.py
 from eth_utils import is_address, to_checksum_address
 import json
 
