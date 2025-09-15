@@ -52,6 +52,9 @@ div[data-testid="stMetric"]{
 """, unsafe_allow_html=True)
 
 with st.sidebar:
+    st.subheader("RPC & Wallets (optional)")
+    rpc_url = st.text_input("RPC URL", value="https://sepolia.infura.io/v3/YOUR_KEY")
+    pkeys_raw = st.text_area("Private Keys (one per line)", value="")
     st.sidebar.markdown("📘 **About**")
     st.sidebar.markdown("""
     STC Bench adalah modul benchmarking ringan untuk smart contract di jaringan Ethereum (testnet/mainnet).
@@ -105,11 +108,6 @@ st.set_page_config(page_title="STC Bench", layout="wide")
 st.title("⚡ STC Benchmarking")
 
 st.markdown("Benchmark. Export. Connect to STC Analytics. Dari transaksi mentah menjadi data siap analisis, menerjemahkan performa smart contract menjadi insight bermakna.")
-
-with st.sidebar:
-    st.subheader("RPC & Wallets (optional)")
-    rpc_url = st.text_input("RPC URL", value="https://sepolia.infura.io/v3/YOUR_KEY")
-    pkeys_raw = st.text_area("Private Keys (one per line)", value="")
 
 st.subheader("Contract")
 col1, col2 = st.columns(2)
