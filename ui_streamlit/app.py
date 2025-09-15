@@ -1,37 +1,58 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-# Page config: wide biar sidebar bisa muncul
 st.set_page_config(page_title="STC Benchmarking", layout="wide")
 
-# Hide Streamlit header/footer
-st.markdown("""
-<style>
-    header, footer {visibility: hidden;}
-    body, html, .block-container {margin:0; padding:0; height:100%; width:100%;}
-    iframe {border:none;}
-</style>
-""", unsafe_allow_html=True)
-
-# Sidebar content (collapsible by default)
 with st.sidebar:
-    st.title("Menu")
-    st.write("Ini sidebar collabsible")
-    option = st.radio("Pilih modul:", ["A", "B", "C"])
+    st.sidebar.markdown("📘 **About**")
+    st.sidebar.markdown("""
+    STC Bench adalah modul benchmarking ringan untuk smart contract di jaringan Ethereum (testnet/mainnet).
+    Tujuannya: mengeksekusi skenario uji, mencatat detail transaksi, lalu men-translate hasilnya ke format standar (CSV/NDJSON) yang siap divisualisasikan di STC Analytics.
+       
+    # 📜 Contract & Scenario
+    Masukkan Contract Address, ABI, dan pilih file skenario benchmark (YAML)
+    
+    # ▶️ Run Benchmark
+    Jalankan skenario dan hasil akan tersimpan otomatis di folder `outputs/`
+       
+    # 📂 Output & Export
+    Benchmark menghasilkan file JSON yang dapat ditranslate ke CSV/NDJSON untuk digunakan di STC Analytics
+    
+    ---
+    ### 🧩 RANTAI Ecosystem
+    1. [STC Analytics](https://stc-analytics.streamlit.app/)
+    2. [STC GasVision](https://stc-gasvision.streamlit.app/)
+    3. [STC Converter](https://stc-converter.streamlit.app/)
+    4. [STC Insight](https://stc-insight.streamlit.app/)
+    5. [STC Plugin](https://smartourism.elpeef.com/)
+    6. [SmartFaith](https://smartfaith.streamlit.app/)
+    7. [Learn3](https://learn3.streamlit.app/)
+    8. [Nexus](https://rantai-nexus.streamlit.app/)
 
-# Fungsi embed iframe crop top
-def embed_iframe(url: str, hide_top_px: int = 72):
-    """
-    Embed iframe full viewport, crop top, sisain space sidebar
-    """
+    ---
+    #### 🙌 Dukungan & kontributor
+    - ⭐ **Star / Fork**: [GitHub repo](https://github.com/mrbrightsides/rantai-nexus)
+    - Built with 💙 by [Khudri](https://s.id/khudri)
+    - Dukung pengembangan proyek ini melalui: 
+      [💖 GitHub Sponsors](https://github.com/sponsors/mrbrightsides) • 
+      [☕ Ko-fi](https://ko-fi.com/khudri) • 
+      [💵 PayPal](https://www.paypal.com/paypalme/akhmadkhudri) • 
+      [🍵 Trakteer](https://trakteer.id/akhmad_khudri)
+
+    Versi UI: v1.0 • Streamlit • Theme Dark
+    """)
+
+def embed_iframe(src, hide_top_px=72, height=800):
     components.html(f"""
-    <div style="height:100vh; overflow:hidden;">
-        <iframe src="{url}" 
-                style="width:100%; height:calc(100vh + {hide_top_px}px); 
-                       margin-top:-{hide_top_px}px;">
+    <div style="height:{height}px; overflow:hidden; position:relative;">
+        <iframe src="{src}" 
+                style="width:100%; height:{height + hide_top_px}px; border:none; position:relative; top:-{hide_top_px}px;">
         </iframe>
     </div>
-    """, height=1000)
+    """, height=height)
 
+# URL Ohara
 iframe_url = "https://ohara.ai/mini-apps/a11f2bf3-af2b-4763-aeb8-53999129c2e5"
-embed_iframe(iframe_url, hide_top_px=120)
+
+# Panggil fungsi
+embed_iframe(iframe_url, hide_top_px=120, height=800)
