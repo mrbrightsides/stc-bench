@@ -1,7 +1,11 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title="⚡ STC Benchmarking", layout="wide")
+st.set_page_config(
+    page_title="STC Benchmarking",
+    page_icon="⚡",
+    layout="wide"
+)
 
 with st.sidebar:
     st.sidebar.image(
