@@ -63,8 +63,9 @@ if run_btn:
             f.write(scenario_text)
 
     # Run runner dan capture output di memory
-    cmd = ["python", str(RUNNER_PATH), temp_path]
-    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    cmd = [sys.executable, "-m", "bench_core.runner", temp_path]
+    proc = subprocess.Popen(cmd, cwd=str(ROOT), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
     st.info("⏳ Benchmark running... please wait")
     try:
         out, err = proc.communicate(timeout=120)
