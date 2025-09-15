@@ -150,43 +150,28 @@ files = sorted(glob.glob(os.path.join(OUTPUT_DIR, "run-*.json")), reverse=True)
 
 if files:
     chosen = st.selectbox("Select output", files)
-    if st.button("Load Output"):
-        with open(chosen, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        st.write("Summary", data.get("meta", {}))
-        df = pd.DataFrame(data.get("rows", []))
-        st.dataframe(df.head(200))
 
-        # exporter buttons
-        from bench_core.exporter import json_to_csv_ndjson
-        csv_path, ndjson_path = None, None
-        try:
-            csv_path, ndjson_path = json_to_csv_ndjson(chosen)
-            st.success("Converted JSON -> CSV / NDJSON")
-            with open(csv_path, "rb") as f:
-                st.download_button("Download CSV", data=f, file_name=Path(csv_path).name)
-            with open(ndjson_path, "rb") as f:
-                st.download_button("Download NDJSON", data=f, file_name=Path(ndjson_path).name)
+    colA, colB = st.columns(2)
+    with colA:
+        if st.button("📑 Load Output"):
+            with open(chosen, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            st.write("Summary", data.get("meta", {}))
+            df = pd.DataFrame(data.get("rows", []))
+            st.dataframe(df.head(200))
 
-            # === Bundle ZIP untuk Analytics ===
-            import zipfile, io
-            runs_file = Path(OUTPUT_DIR) / "bench_runs.csv"
-            tx_file = Path(OUTPUT_DIR) / "bench_tx.csv"
-            if runs_file.exists() and tx_file.exists():
-                buf = io.BytesIO()
-                with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as z:
-                    z.write(runs_file, arcname=runs_file.name)
-                    z.write(tx_file, arcname=tx_file.name)
-                buf.seek(0)
-                st.download_button(
-                    "📦 Download bundle ZIP (runs+tx)",
-                    data=buf,
-                    file_name="bench_bundle.zip",
-                    mime="application/zip"
-                )
-            else:
-                st.info("⚠️ bench_runs.csv & bench_tx.csv belum ada, jalankan parse dulu.")
-        except Exception as e:
-            st.error(f"Export failed: {e}")
+    with colB:
+        if st.button("⚡ Parse & Bundle"):
+            try:
+                from parse_bench_and_bundle import parse_caliper_report, bundle_if_ready
+                # set input file dulu
+                import parse_bench_and_bundle
+                parse_bench_and_bundle.INPUT_FILE = chosen
+                parse_caliper_report()
+                bundle_if_ready()
+                st.success("✅ Parsed & Bundled! Cek folder outputs/")
+            except Exception as e:
+                st.error(f"Parse+Bundle failed: {e}")
+
 else:
     st.info("No outputs yet. Run a scenario first.")
