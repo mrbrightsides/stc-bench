@@ -12,7 +12,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-def embed_iframe(url: str, hide_top: int = 200):
+def embed_iframe(url: str, hide_top: int = 72):
     """
     Embed iframe full viewport dengan opsi crop atas (hide_top).
     """
@@ -29,4 +29,4 @@ def embed_iframe(url: str, hide_top: int = 200):
 
 # Panggil iframe
 iframe_url = "https://ohara.ai/mini-apps/a11f2bf3-af2b-4763-aeb8-53999129c2e5"
-embed_iframe(iframe_url, hide_top=72)
+embed_iframe(iframe_url, hide_top=100)
