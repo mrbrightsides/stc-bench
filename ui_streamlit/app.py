@@ -57,25 +57,17 @@ with st.sidebar:
     STC Bench adalah modul benchmarking ringan untuk smart contract di jaringan Ethereum (testnet/mainnet).
     Tujuannya: mengeksekusi skenario uji, mencatat detail transaksi, lalu men-translate hasilnya ke format standar (CSV/NDJSON) yang siap divisualisasikan di STC Analytics.
    
-    st.subheader("🔑 Setup Connection")
-    st.write("Masukkan RPC URL dan Private Key Anda di sini (jangan khawatir, data tidak disimpan).")
+    #🔑 Setup Connection
+    Masukkan RPC URL dan Private Key Anda di sini (jangan khawatir, data tidak disimpan)
+       
+    #📜 Contract & Scenario
+    Masukkan Contract Address, ABI, dan pilih file skenario benchmark (YAML)
     
-    # input key, rpc, dll...
-    
-    st.subheader("📜 Contract & Scenario")
-    st.write("Masukkan Contract Address, ABI, dan pilih file skenario benchmark (YAML).")
-    
-    # input contract address, abi, scenario...
-    
-    st.subheader("▶️ Run Benchmark")
-    st.write("Jalankan skenario dan hasil akan tersimpan otomatis di folder `outputs/`.")
-    
-    # tombol run...
-    
-    st.subheader("📂 Output & Export")
-    st.write("Benchmark menghasilkan file JSON yang dapat ditranslate ke CSV/NDJSON untuk digunakan di STC Analytics.")
-
-    # output path, link ke csv...
+    #▶️ Run Benchmark
+    Jalankan skenario dan hasil akan tersimpan otomatis di folder `outputs/`
+       
+    #📂 Output & Export
+    Benchmark menghasilkan file JSON yang dapat ditranslate ke CSV/NDJSON untuk digunakan di STC Analytics
     
     ---
     #### 🔮 Vision Statement
