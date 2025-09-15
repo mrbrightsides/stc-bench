@@ -1,18 +1,24 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-with st.sidebar:
-    st.subheader("RPC & Wallets (optional)")
-    rpc_url = st.text_input("RPC URL", value="https://sepolia.infura.io/v3/YOUR_KEY")
-    pkeys_raw = st.text_area("Private Keys (one per line)", value="")
+# Page config: wide biar sidebar bisa muncul
+st.set_page_config(page_title="STC Benchmarking", layout="wide")
 
+# Hide Streamlit header/footer
+st.markdown("""
+<style>
+    header, footer {visibility: hidden;}
+    body, html, .block-container {margin:0; padding:0; height:100%; width:100%;}
+    iframe {border:none;}
+</style>
+""", unsafe_allow_html=True)
+
+# Sidebar content (collapsible by default)
+with st.sidebar:
     st.sidebar.markdown("📘 **About**")
     st.sidebar.markdown("""
     STC Bench adalah modul benchmarking ringan untuk smart contract di jaringan Ethereum (testnet/mainnet).
     Tujuannya: mengeksekusi skenario uji, mencatat detail transaksi, lalu men-translate hasilnya ke format standar (CSV/NDJSON) yang siap divisualisasikan di STC Analytics.
-   
-    # 🔑 Setup Connection
-    Masukkan RPC URL dan Private Key Anda di sini (jangan khawatir, data tidak disimpan)
        
     # 📜 Contract & Scenario
     Masukkan Contract Address, ABI, dan pilih file skenario benchmark (YAML)
@@ -47,32 +53,19 @@ with st.sidebar:
     Versi UI: v1.0 • Streamlit • Theme Dark
     """)
 
-# Page config full width
-st.set_page_config(page_title="STC Single Module", layout="wide")
-
-# Optional: hide Streamlit header/footer
-st.markdown("""
-<style>
-    header, footer {visibility: hidden;}
-    body, html, .block-container {margin:0; padding:0; height:100%; width:100%;}
-</style>
-""", unsafe_allow_html=True)
-
-def embed_iframe(url: str, hide_top: int = 72):
+# Fungsi embed iframe crop top
+def embed_iframe(url: str, hide_top_px: int = 72):
     """
-    Embed iframe full viewport dengan opsi crop atas (hide_top).
+    Embed iframe full viewport, crop top, sisain space sidebar
     """
-    # Ambil height dari query params jika ada, default 800
-    height = int(st.query_params.get("height", ["800"])[0])
-
     components.html(f"""
-    <div style="position:relative; width:100%; height:100vh; overflow:hidden;">
+    <div style="height:100vh; overflow:hidden;">
         <iframe src="{url}" 
-                style="position:absolute; top:-{hide_top}px; left:0; width:100%; height:calc(100vh + {hide_top}px); border:none;">
+                style="width:100%; height:calc(100vh + {hide_top_px}px); 
+                       margin-top:-{hide_top_px}px;">
         </iframe>
     </div>
-    """, height=height)
+    """, height=1000)
 
-# Panggil iframe
 iframe_url = "https://ohara.ai/mini-apps/a11f2bf3-af2b-4763-aeb8-53999129c2e5"
-embed_iframe(iframe_url, hide_top=120)
+embed_iframe(iframe_url, hide_top_px=120)
