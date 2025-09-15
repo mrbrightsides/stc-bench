@@ -46,27 +46,47 @@ contract_address = st.text_input("Contract Address (0x...)")
 abi_text = st.text_area("ABI JSON (paste)")
 
 st.subheader("Scenario")
-scenario_text = st.text_area("scenario.json (paste or edit)", height=220,
-                             value='{"title":"Simple Transfer","network":"Sepolia","actions": []}')
+scenario_text = st.text_area(
+    "scenario.yaml (paste or edit)", 
+    height=250,
+    value="""\
+name: "real-transfer-sepolia"
+description: "Benchmark real Ethereum transactions on Sepolia testnet"
+network: "Sepolia"
+workers: 2
+iterations_per_worker: 3
+think_time_seconds: 0.01
+actions:
+  - type: "transfer"
+    from: "<YOUR_WALLET_ADDRESS>"
+    to: "<RECIPIENT_ADDRESS>"
+    value_eth: 0.001
+"""
+)
 
-# --- Run Benchmark ---
 run_btn = st.button("🚀 Run Benchmark")
+
 if run_btn:
-    temp_path = "temp_scenario.yaml"
-    try:
-        import yaml
-        parsed = yaml.safe_load(scenario_text)
-        with open(temp_path, "w", encoding="utf-8") as f:
-            yaml.safe_dump(parsed, f)
-    except Exception:
-        with open(temp_path, "w", encoding="utf-8") as f:
-            f.write(scenario_text)
+    # cek placeholder dulu
+    if "<YOUR_WALLET_ADDRESS>" in scenario_text or "<RECIPIENT_ADDRESS>" in scenario_text:
+        st.error("⚠️ Please replace placeholders <YOUR_WALLET_ADDRESS> and <RECIPIENT_ADDRESS> before running the benchmark.")
+    else:
+        # simpan scenario temporer dan run runner
+        os.makedirs(SCENARIO_DIR, exist_ok=True)
+        temp_path = os.path.join(SCENARIO_DIR, "ui_temp_scenario.yaml")
+        try:
+            import yaml
+            parsed = yaml.safe_load(scenario_text)
+            with open(temp_path, "w", encoding="utf-8") as f:
+                yaml.safe_dump(parsed, f)
+        except Exception:
+            with open(temp_path, "w", encoding="utf-8") as f:
+                f.write(scenario_text)
 
-    # Run runner dan capture output di memory
-    cmd = [sys.executable, "-m", "bench_core.runner", temp_path]
-    proc = subprocess.Popen(cmd, cwd=str(ROOT), stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
-    st.info("⏳ Benchmark running... please wait")
+        # jalankan benchmark
+        cmd = ["python", RUNNER_PATH, temp_path]
+        proc = subprocess.Popen(cmd)
+        st.info("⏳ Benchmark running... please wait")
     try:
         out, err = proc.communicate(timeout=120)
     except subprocess.TimeoutExpired:
