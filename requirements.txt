@@ -1,7 +1,9 @@
-web3
 streamlit
 pandas
 python-dotenv
 tqdm
 numpy
 pyyaml
+web3
+eth-utils
+-e .
