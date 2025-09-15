@@ -12,7 +12,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-def embed_iframe(url: str, hide_top: int = 72):
+def embed_iframe(url: str, hide_top: int = 120):
     """
     Embed iframe full viewport dengan opsi crop atas (hide_top).
     """
