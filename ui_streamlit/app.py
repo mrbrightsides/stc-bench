@@ -4,6 +4,10 @@ import streamlit.components.v1 as components
 st.set_page_config(page_title="STC Benchmarking", layout="wide")
 
 with st.sidebar:
+    st.sidebar.image(
+        "https://i.imgur.com/7j5aq4l.png",
+        use_container_width=True
+    )
     st.sidebar.markdown("📘 **About**")
     st.sidebar.markdown("""
     STC Bench adalah modul benchmarking ringan untuk smart contract di jaringan Ethereum (testnet/mainnet).
