@@ -28,6 +28,87 @@ SCENARIO_DIR = os.path.join(ROOT, "scenarios")
 OUTPUT_DIR = os.path.join(ROOT, "outputs")
 RUNNER_PATH = os.path.join(ROOT, "bench_core", "runner.py")
 
+# Quick CSS theme (dark + teal accents)
+st.markdown("""
+<style>
+:root { --accent:#20c997; --accent2:#7c4dff; }
+.block-container { padding-top: 1rem; }
+section[data-testid="stSidebar"] .st-expander { border:1px solid #313131; border-radius:12px; }
+div[data-testid="stMetric"]{
+  background: linear-gradient(135deg, rgba(32,201,151,.08), rgba(124,77,255,.06));
+  border: 1px solid rgba(128,128,128,.15);
+  padding: 12px; border-radius: 12px;
+}
+.stButton>button, .stDownloadButton>button{
+  border-radius:10px; border:1px solid rgba(255,255,255,.15);
+}
+.stTabs [data-baseweb="tab-list"] { gap: 6px; }
+.stTabs [data-baseweb="tab"]{
+  background: rgba(255,255,255,.03); border: 1px solid rgba(255,255,255,.08);
+  border-radius: 10px; padding: 6px 12px;
+}
+[data-testid="stHeader"] { background: transparent; }
+</style>
+""", unsafe_allow_html=True)
+
+with st.sidebar:
+    st.sidebar.image(
+        "https://i.imgur.com/n1m1LJf.png",
+        use_container_width=True
+    )
+    st.sidebar.markdown("📘 **About**")
+    st.sidebar.markdown("""
+    RANTAI Nexus adalah ruang bermain sekaligus ruang belajar, di mana fun bertemu focus, iman bertemu inovasi, wisata bertemu Web3, dan akademik bertemu eksperimen; semua terhubung lewat rantai ide dan kode, serta kolaborasi dan aksi.
+   
+    Pilih modul DApp dari navbar:
+    1. Chat AI: Belajar dunia Web3 secara fun dan santai dengan AI multitalent.
+    2. Learn to Earn: Eksperimen musik bareng AI, lalu klaim hadiah lewat Web3.
+    3. Retro Games: Mainkan 12 game klasik 8-bit dan koneksikan skor dengan pemain lain via Web3.
+    4. DID Prototype: Prototype identitas digital terdesentralisasi, cikal bakal KTP masa depan.
+    5. Ferix Lab: Gambar mobil, adu kreasi, dan bandingkan karya lewat Web3.
+    6. Social Media: Berinteraksi dan bangun jejaring sosial dengan dukungan Web3.
+    7. Halal Chain: Analisis rantai pasok restoran untuk menilai status halal dengan Web3.
+    8. Travel Tycoon: Jadi pengusaha pariwisata dalam game simulasi berbasis Web3.
+    9. Cultural DAO: Dukung dan voting budaya Indonesia melalui DAO.
+    10. Zakat Manager: Kelola zakat lebih aman, transparan, dan nyaman menggunakan Web3.
+    11. NFT Marketplace: Koleksi souvenir digital berupa NFT dari destinasi wisata Indonesia.
+    
+    ---
+    #### 🔮 Vision Statement
+    RANTAI Nexus hadir sebagai ruang kolaboraksi yang menjembatani nilai iman, eksplorasi wisata, semangat akademik, dan inovasi Web3—menciptakan ekosistem belajar, bermain, dan berkreasi yang santai, inklusif, dan terhubung lewat teknologi blockchain.
+
+    ---
+    ### ❓ How to Log in
+    Pastikan sudah memiliki wallet. Tiap modul merupakan app standalone jadi harus login di tiap modulnya untuk merasakan pengalaman maksimal dalam menjelajahi dunia Web3.
+    
+    ---
+    ### 🎯 Leaderboard
+    Beberapa modul disertai leaderboard yang berbeda-beda fungsi dan tujuannya. Tingkatkan peringkat dan bersaing dengan pengguna lain untuk menjadi yang terbaik.
+
+    ---
+    ### 🧩 RANTAI Ecosystem
+    1. [STC Analytics](https://stc-analytics.streamlit.app/)
+    2. [STC GasVision](https://stc-gasvision.streamlit.app/)
+    3. [STC Converter](https://stc-converter.streamlit.app/)
+    4. [STC Bench](https://stc-bench.streamlit.app/)
+    5. [STC Insight](https://stc-insight.streamlit.app/)
+    6. [STC Plugin](https://smartourism.elpeef.com/)
+    7. [SmartFaith](https://smartfaith.streamlit.app/)
+    8. [Learn3](https://learn3.streamlit.app/)
+
+    ---
+    #### 🙌 Dukungan & kontributor
+    - ⭐ **Star / Fork**: [GitHub repo](https://github.com/mrbrightsides/rantai-nexus)
+    - Built with 💙 by [Khudri](https://s.id/khudri)
+    - Dukung pengembangan proyek ini melalui: 
+      [💖 GitHub Sponsors](https://github.com/sponsors/mrbrightsides) • 
+      [☕ Ko-fi](https://ko-fi.com/khudri) • 
+      [💵 PayPal](https://www.paypal.com/paypalme/akhmadkhudri) • 
+      [🍵 Trakteer](https://trakteer.id/akhmad_khudri)
+
+    Versi UI: v1.0 • Streamlit • Theme Dark
+    """)
+
 # === Logo dan Header ===
 LOGO_URL = "https://i.imgur.com/7j5aq4l.png"
 col1, col2 = st.columns([1, 4])
@@ -39,7 +120,7 @@ with col2:
 st.set_page_config(page_title="STC Bench", layout="wide")
 st.title("⚡ STC Benchmarking")
 
-st.markdown("Benchmark. Export. Connect to STC Analytics. Dari transaksi mentah menjadi data siap analisis, menerjemahkan performa smart contract Anda menjadi wawasan bermakna.")
+st.markdown("Benchmark. Export. Connect to STC Analytics. Dari transaksi mentah menjadi data siap analisis, menerjemahkan performa smart contract menjadi insight bermakna.")
 
 with st.sidebar:
     st.subheader("RPC & Wallets (optional)")
