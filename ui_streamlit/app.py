@@ -56,7 +56,6 @@ with st.sidebar:
     rpc_url = st.text_input("RPC URL", value="https://sepolia.infura.io/v3/YOUR_KEY")
     pkeys_raw = st.text_area("Private Keys (one per line)", value="")
 
-    ---
     st.sidebar.markdown("📘 **About**")
     st.sidebar.markdown("""
     STC Bench adalah modul benchmarking ringan untuk smart contract di jaringan Ethereum (testnet/mainnet).
