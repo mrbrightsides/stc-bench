@@ -1,0 +1,12 @@
+{
+"title": "Booking Flow Basic",
+"network": "Sepolia",
+"chain_id": 11155111,
+"contract_address": "0x...",
+"abi": [],
+"private_keys": ["<PK1>", "<PK2>"],
+"actions": [
+{ "name": "createBooking", "params": ["Hotel A", 2, 1724457600], "repeats": 5, "concurrency": 1 },
+{ "name": "payBooking", "params": [1], "repeats": 5, "concurrency": 2 }
+]
+}

@@ -1,0 +1,6 @@
+name: "synthetic-local"
+description: "Synthetic benchmark for local testing"
+workers: 4
+iterations_per_worker: 250
+think_time_seconds: 0.005
+notes: "Replace synthetic_worker with web3_worker to run real txs"

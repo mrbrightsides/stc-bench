@@ -1,0 +1,12 @@
+```json
+{
+"title": "ERC20 Transfer Burst",
+"network": "Sepolia",
+"chain_id": 11155111,
+"contract_address": "0x...",
+"abi": [],
+"private_keys": ["<PK1>"],
+"actions": [
+{ "name": "transfer", "params": ["0xRecipient", "100000000000000000"], "repeats": 10, "concurrency": 2 }
+]
+}

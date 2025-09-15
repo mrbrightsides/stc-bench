@@ -1,0 +1,7 @@
+web3
+streamlit
+pandas
+python-dotenv
+tqdm
+numpy
+pyyaml

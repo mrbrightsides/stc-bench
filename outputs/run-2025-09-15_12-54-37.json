@@ -1,0 +1,7015 @@
+{
+  "meta": {
+    "generated_at": 1757915678370,
+    "summary": {
+      "count": 1000,
+      "min_ms": 5,
+      "max_ms": 8,
+      "mean_ms": 5.434,
+      "p50_ms": 5,
+      "p95_ms": 6
+    }
+  },
+  "rows": [
+    {
+      "worker_id": 1,
+      "iteration": 0,
+      "req_id": "1-0-4746d7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677013
+    },
+    {
+      "worker_id": 0,
+      "iteration": 0,
+      "req_id": "0-0-663387",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677013
+    },
+    {
+      "worker_id": 2,
+      "iteration": 0,
+      "req_id": "2-0-32ac23",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677014
+    },
+    {
+      "worker_id": 3,
+      "iteration": 0,
+      "req_id": "3-0-b62c66",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677014
+    },
+    {
+      "worker_id": 1,
+      "iteration": 1,
+      "req_id": "1-1-0d52d4",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677018
+    },
+    {
+      "worker_id": 0,
+      "iteration": 1,
+      "req_id": "0-1-e4df6c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677018
+    },
+    {
+      "worker_id": 2,
+      "iteration": 1,
+      "req_id": "2-1-106b4c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677019
+    },
+    {
+      "worker_id": 3,
+      "iteration": 1,
+      "req_id": "3-1-2db62f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677019
+    },
+    {
+      "worker_id": 2,
+      "iteration": 2,
+      "req_id": "2-2-ba5a72",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677024
+    },
+    {
+      "worker_id": 0,
+      "iteration": 2,
+      "req_id": "0-2-a51c54",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677024
+    },
+    {
+      "worker_id": 3,
+      "iteration": 2,
+      "req_id": "3-2-317e41",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677024
+    },
+    {
+      "worker_id": 1,
+      "iteration": 2,
+      "req_id": "1-2-347abe",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677024
+    },
+    {
+      "worker_id": 0,
+      "iteration": 3,
+      "req_id": "0-3-7c112f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677029
+    },
+    {
+      "worker_id": 3,
+      "iteration": 3,
+      "req_id": "3-3-242d5f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677029
+    },
+    {
+      "worker_id": 2,
+      "iteration": 3,
+      "req_id": "2-3-860a35",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677029
+    },
+    {
+      "worker_id": 1,
+      "iteration": 3,
+      "req_id": "1-3-90925f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677030
+    },
+    {
+      "worker_id": 2,
+      "iteration": 4,
+      "req_id": "2-4-afad2d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677035
+    },
+    {
+      "worker_id": 3,
+      "iteration": 4,
+      "req_id": "3-4-6a7dfc",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677035
+    },
+    {
+      "worker_id": 0,
+      "iteration": 4,
+      "req_id": "0-4-69fbbc",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677035
+    },
+    {
+      "worker_id": 1,
+      "iteration": 4,
+      "req_id": "1-4-c03ded",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677036
+    },
+    {
+      "worker_id": 2,
+      "iteration": 5,
+      "req_id": "2-5-93d93a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677040
+    },
+    {
+      "worker_id": 3,
+      "iteration": 5,
+      "req_id": "3-5-dc2158",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677040
+    },
+    {
+      "worker_id": 0,
+      "iteration": 5,
+      "req_id": "0-5-857b3c",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677041
+    },
+    {
+      "worker_id": 1,
+      "iteration": 5,
+      "req_id": "1-5-d35a7a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677041
+    },
+    {
+      "worker_id": 3,
+      "iteration": 6,
+      "req_id": "3-6-cca9b0",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677045
+    },
+    {
+      "worker_id": 2,
+      "iteration": 6,
+      "req_id": "2-6-904018",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677045
+    },
+    {
+      "worker_id": 0,
+      "iteration": 6,
+      "req_id": "0-6-89de61",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677046
+    },
+    {
+      "worker_id": 1,
+      "iteration": 6,
+      "req_id": "1-6-d3ece4",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677046
+    },
+    {
+      "worker_id": 2,
+      "iteration": 7,
+      "req_id": "2-7-f0fbb9",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677051
+    },
+    {
+      "worker_id": 3,
+      "iteration": 7,
+      "req_id": "3-7-6d7521",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677051
+    },
+    {
+      "worker_id": 0,
+      "iteration": 7,
+      "req_id": "0-7-f1056e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677051
+    },
+    {
+      "worker_id": 1,
+      "iteration": 7,
+      "req_id": "1-7-82f094",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677052
+    },
+    {
+      "worker_id": 2,
+      "iteration": 8,
+      "req_id": "2-8-d84033",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677056
+    },
+    {
+      "worker_id": 3,
+      "iteration": 8,
+      "req_id": "3-8-1c2ef8",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677056
+    },
+    {
+      "worker_id": 0,
+      "iteration": 8,
+      "req_id": "0-8-b4a5ef",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677056
+    },
+    {
+      "worker_id": 1,
+      "iteration": 8,
+      "req_id": "1-8-70bfdc",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677057
+    },
+    {
+      "worker_id": 2,
+      "iteration": 9,
+      "req_id": "2-9-b8500d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677062
+    },
+    {
+      "worker_id": 3,
+      "iteration": 9,
+      "req_id": "3-9-1defd3",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677062
+    },
+    {
+      "worker_id": 0,
+      "iteration": 9,
+      "req_id": "0-9-cb57b3",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677062
+    },
+    {
+      "worker_id": 1,
+      "iteration": 9,
+      "req_id": "1-9-4df71b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677063
+    },
+    {
+      "worker_id": 2,
+      "iteration": 10,
+      "req_id": "2-10-d4ba6e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677067
+    },
+    {
+      "worker_id": 3,
+      "iteration": 10,
+      "req_id": "3-10-182fee",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677067
+    },
+    {
+      "worker_id": 0,
+      "iteration": 10,
+      "req_id": "0-10-c75a54",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677067
+    },
+    {
+      "worker_id": 1,
+      "iteration": 10,
+      "req_id": "1-10-fd9bfc",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677068
+    },
+    {
+      "worker_id": 0,
+      "iteration": 11,
+      "req_id": "0-11-6436a5",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677072
+    },
+    {
+      "worker_id": 2,
+      "iteration": 11,
+      "req_id": "2-11-1b7d98",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677072
+    },
+    {
+      "worker_id": 3,
+      "iteration": 11,
+      "req_id": "3-11-c336fd",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677072
+    },
+    {
+      "worker_id": 1,
+      "iteration": 11,
+      "req_id": "1-11-ed7f3b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677073
+    },
+    {
+      "worker_id": 3,
+      "iteration": 12,
+      "req_id": "3-12-e4b5c5",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677078
+    },
+    {
+      "worker_id": 0,
+      "iteration": 12,
+      "req_id": "0-12-e90923",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677078
+    },
+    {
+      "worker_id": 2,
+      "iteration": 12,
+      "req_id": "2-12-f10472",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677078
+    },
+    {
+      "worker_id": 1,
+      "iteration": 12,
+      "req_id": "1-12-c52879",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677079
+    },
+    {
+      "worker_id": 0,
+      "iteration": 13,
+      "req_id": "0-13-67595b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677083
+    },
+    {
+      "worker_id": 2,
+      "iteration": 13,
+      "req_id": "2-13-2a43c5",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677083
+    },
+    {
+      "worker_id": 3,
+      "iteration": 13,
+      "req_id": "3-13-24bbcc",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677083
+    },
+    {
+      "worker_id": 1,
+      "iteration": 13,
+      "req_id": "1-13-f0b91a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677084
+    },
+    {
+      "worker_id": 0,
+      "iteration": 14,
+      "req_id": "0-14-87c151",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677089
+    },
+    {
+      "worker_id": 2,
+      "iteration": 14,
+      "req_id": "2-14-288bfe",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677089
+    },
+    {
+      "worker_id": 3,
+      "iteration": 14,
+      "req_id": "3-14-7b0713",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677089
+    },
+    {
+      "worker_id": 1,
+      "iteration": 14,
+      "req_id": "1-14-d0a80d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677090
+    },
+    {
+      "worker_id": 2,
+      "iteration": 15,
+      "req_id": "2-15-2837f8",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677094
+    },
+    {
+      "worker_id": 0,
+      "iteration": 15,
+      "req_id": "0-15-db2c0d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677094
+    },
+    {
+      "worker_id": 3,
+      "iteration": 15,
+      "req_id": "3-15-a5c1d9",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677094
+    },
+    {
+      "worker_id": 1,
+      "iteration": 15,
+      "req_id": "1-15-d5da6a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677095
+    },
+    {
+      "worker_id": 2,
+      "iteration": 16,
+      "req_id": "2-16-108a74",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677099
+    },
+    {
+      "worker_id": 3,
+      "iteration": 16,
+      "req_id": "3-16-7b7411",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677100
+    },
+    {
+      "worker_id": 0,
+      "iteration": 16,
+      "req_id": "0-16-c6935d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677100
+    },
+    {
+      "worker_id": 1,
+      "iteration": 16,
+      "req_id": "1-16-3200fd",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677101
+    },
+    {
+      "worker_id": 2,
+      "iteration": 17,
+      "req_id": "2-17-f841e6",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677104
+    },
+    {
+      "worker_id": 3,
+      "iteration": 17,
+      "req_id": "3-17-745d43",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677105
+    },
+    {
+      "worker_id": 0,
+      "iteration": 17,
+      "req_id": "0-17-2928ea",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677105
+    },
+    {
+      "worker_id": 1,
+      "iteration": 17,
+      "req_id": "1-17-b2ef42",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677106
+    },
+    {
+      "worker_id": 2,
+      "iteration": 18,
+      "req_id": "2-18-64f86e",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677110
+    },
+    {
+      "worker_id": 3,
+      "iteration": 18,
+      "req_id": "3-18-da9bc4",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677110
+    },
+    {
+      "worker_id": 0,
+      "iteration": 18,
+      "req_id": "0-18-41757f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677110
+    },
+    {
+      "worker_id": 1,
+      "iteration": 18,
+      "req_id": "1-18-f80f55",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677111
+    },
+    {
+      "worker_id": 2,
+      "iteration": 19,
+      "req_id": "2-19-219047",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677115
+    },
+    {
+      "worker_id": 3,
+      "iteration": 19,
+      "req_id": "3-19-65885f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677116
+    },
+    {
+      "worker_id": 0,
+      "iteration": 19,
+      "req_id": "0-19-266b7b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677116
+    },
+    {
+      "worker_id": 1,
+      "iteration": 19,
+      "req_id": "1-19-34aad4",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677117
+    },
+    {
+      "worker_id": 2,
+      "iteration": 20,
+      "req_id": "2-20-c4d9b4",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677120
+    },
+    {
+      "worker_id": 3,
+      "iteration": 20,
+      "req_id": "3-20-41e787",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677121
+    },
+    {
+      "worker_id": 1,
+      "iteration": 20,
+      "req_id": "1-20-e8c2c9",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677122
+    },
+    {
+      "worker_id": 0,
+      "iteration": 20,
+      "req_id": "0-20-4b0ba9",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677122
+    },
+    {
+      "worker_id": 2,
+      "iteration": 21,
+      "req_id": "2-21-94c520",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677126
+    },
+    {
+      "worker_id": 3,
+      "iteration": 21,
+      "req_id": "3-21-4bbc1c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677126
+    },
+    {
+      "worker_id": 1,
+      "iteration": 21,
+      "req_id": "1-21-eeeab7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677127
+    },
+    {
+      "worker_id": 0,
+      "iteration": 21,
+      "req_id": "0-21-04bdd0",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677127
+    },
+    {
+      "worker_id": 2,
+      "iteration": 22,
+      "req_id": "2-22-66c3cf",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677131
+    },
+    {
+      "worker_id": 3,
+      "iteration": 22,
+      "req_id": "3-22-478459",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677131
+    },
+    {
+      "worker_id": 1,
+      "iteration": 22,
+      "req_id": "1-22-a0b0a5",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677132
+    },
+    {
+      "worker_id": 0,
+      "iteration": 22,
+      "req_id": "0-22-b2136b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677133
+    },
+    {
+      "worker_id": 2,
+      "iteration": 23,
+      "req_id": "2-23-05722f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677137
+    },
+    {
+      "worker_id": 3,
+      "iteration": 23,
+      "req_id": "3-23-45832d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677137
+    },
+    {
+      "worker_id": 1,
+      "iteration": 23,
+      "req_id": "1-23-7ecc0b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677137
+    },
+    {
+      "worker_id": 0,
+      "iteration": 23,
+      "req_id": "0-23-1f16a7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677138
+    },
+    {
+      "worker_id": 3,
+      "iteration": 24,
+      "req_id": "3-24-7fc15d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677142
+    },
+    {
+      "worker_id": 2,
+      "iteration": 24,
+      "req_id": "2-24-5d441b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677142
+    },
+    {
+      "worker_id": 1,
+      "iteration": 24,
+      "req_id": "1-24-dc3488",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677143
+    },
+    {
+      "worker_id": 0,
+      "iteration": 24,
+      "req_id": "0-24-da123b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677143
+    },
+    {
+      "worker_id": 3,
+      "iteration": 25,
+      "req_id": "3-25-f55618",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677147
+    },
+    {
+      "worker_id": 2,
+      "iteration": 25,
+      "req_id": "2-25-2e4836",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677147
+    },
+    {
+      "worker_id": 1,
+      "iteration": 25,
+      "req_id": "1-25-d456d7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677148
+    },
+    {
+      "worker_id": 0,
+      "iteration": 25,
+      "req_id": "0-25-a982e9",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677149
+    },
+    {
+      "worker_id": 2,
+      "iteration": 26,
+      "req_id": "2-26-2ac19b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677153
+    },
+    {
+      "worker_id": 3,
+      "iteration": 26,
+      "req_id": "3-26-8315d4",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677153
+    },
+    {
+      "worker_id": 1,
+      "iteration": 26,
+      "req_id": "1-26-16c415",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677153
+    },
+    {
+      "worker_id": 0,
+      "iteration": 26,
+      "req_id": "0-26-a0178f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677154
+    },
+    {
+      "worker_id": 2,
+      "iteration": 27,
+      "req_id": "2-27-daaaae",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677158
+    },
+    {
+      "worker_id": 3,
+      "iteration": 27,
+      "req_id": "3-27-450413",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677158
+    },
+    {
+      "worker_id": 1,
+      "iteration": 27,
+      "req_id": "1-27-9c9c9f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677159
+    },
+    {
+      "worker_id": 0,
+      "iteration": 27,
+      "req_id": "0-27-3ce050",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677159
+    },
+    {
+      "worker_id": 2,
+      "iteration": 28,
+      "req_id": "2-28-a34f40",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677163
+    },
+    {
+      "worker_id": 3,
+      "iteration": 28,
+      "req_id": "3-28-a26673",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677164
+    },
+    {
+      "worker_id": 1,
+      "iteration": 28,
+      "req_id": "1-28-bef34c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677164
+    },
+    {
+      "worker_id": 0,
+      "iteration": 28,
+      "req_id": "0-28-d5c87e",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677165
+    },
+    {
+      "worker_id": 2,
+      "iteration": 29,
+      "req_id": "2-29-8f5c1e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677168
+    },
+    {
+      "worker_id": 1,
+      "iteration": 29,
+      "req_id": "1-29-41f2db",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677169
+    },
+    {
+      "worker_id": 3,
+      "iteration": 29,
+      "req_id": "3-29-8a8121",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677169
+    },
+    {
+      "worker_id": 0,
+      "iteration": 29,
+      "req_id": "0-29-896e18",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677171
+    },
+    {
+      "worker_id": 2,
+      "iteration": 30,
+      "req_id": "2-30-946020",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677174
+    },
+    {
+      "worker_id": 3,
+      "iteration": 30,
+      "req_id": "3-30-d83b73",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677175
+    },
+    {
+      "worker_id": 1,
+      "iteration": 30,
+      "req_id": "1-30-fc2f3e",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677175
+    },
+    {
+      "worker_id": 0,
+      "iteration": 30,
+      "req_id": "0-30-d00e7c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677176
+    },
+    {
+      "worker_id": 2,
+      "iteration": 31,
+      "req_id": "2-31-6cb695",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677179
+    },
+    {
+      "worker_id": 1,
+      "iteration": 31,
+      "req_id": "1-31-aba0e8",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677180
+    },
+    {
+      "worker_id": 3,
+      "iteration": 31,
+      "req_id": "3-31-8f2213",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677180
+    },
+    {
+      "worker_id": 0,
+      "iteration": 31,
+      "req_id": "0-31-45233d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677181
+    },
+    {
+      "worker_id": 2,
+      "iteration": 32,
+      "req_id": "2-32-a3f249",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677185
+    },
+    {
+      "worker_id": 1,
+      "iteration": 32,
+      "req_id": "1-32-06abcc",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677186
+    },
+    {
+      "worker_id": 3,
+      "iteration": 32,
+      "req_id": "3-32-48812e",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677186
+    },
+    {
+      "worker_id": 0,
+      "iteration": 32,
+      "req_id": "0-32-171e25",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677187
+    },
+    {
+      "worker_id": 2,
+      "iteration": 33,
+      "req_id": "2-33-a4074a",
+      "latency_ms": 8,
+      "timestamp_ms": 1757915677193
+    },
+    {
+      "worker_id": 1,
+      "iteration": 33,
+      "req_id": "1-33-4c542c",
+      "latency_ms": 7,
+      "timestamp_ms": 1757915677193
+    },
+    {
+      "worker_id": 0,
+      "iteration": 33,
+      "req_id": "0-33-40d434",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677193
+    },
+    {
+      "worker_id": 3,
+      "iteration": 33,
+      "req_id": "3-33-c5ca3c",
+      "latency_ms": 7,
+      "timestamp_ms": 1757915677193
+    },
+    {
+      "worker_id": 2,
+      "iteration": 34,
+      "req_id": "2-34-115b2b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677199
+    },
+    {
+      "worker_id": 3,
+      "iteration": 34,
+      "req_id": "3-34-7a1cd8",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677199
+    },
+    {
+      "worker_id": 1,
+      "iteration": 34,
+      "req_id": "1-34-a24351",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677199
+    },
+    {
+      "worker_id": 0,
+      "iteration": 34,
+      "req_id": "0-34-a61b43",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677199
+    },
+    {
+      "worker_id": 1,
+      "iteration": 35,
+      "req_id": "1-35-6e7b15",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677205
+    },
+    {
+      "worker_id": 2,
+      "iteration": 35,
+      "req_id": "2-35-c2bcb6",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677205
+    },
+    {
+      "worker_id": 0,
+      "iteration": 35,
+      "req_id": "0-35-97a27a",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677205
+    },
+    {
+      "worker_id": 3,
+      "iteration": 35,
+      "req_id": "3-35-db6e42",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677205
+    },
+    {
+      "worker_id": 0,
+      "iteration": 36,
+      "req_id": "0-36-626561",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677210
+    },
+    {
+      "worker_id": 1,
+      "iteration": 36,
+      "req_id": "1-36-36520b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677210
+    },
+    {
+      "worker_id": 2,
+      "iteration": 36,
+      "req_id": "2-36-930d19",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677210
+    },
+    {
+      "worker_id": 3,
+      "iteration": 36,
+      "req_id": "3-36-4c0b62",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677210
+    },
+    {
+      "worker_id": 1,
+      "iteration": 37,
+      "req_id": "1-37-d8496b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677216
+    },
+    {
+      "worker_id": 0,
+      "iteration": 37,
+      "req_id": "0-37-f03d71",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677216
+    },
+    {
+      "worker_id": 3,
+      "iteration": 37,
+      "req_id": "3-37-135fb0",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677216
+    },
+    {
+      "worker_id": 2,
+      "iteration": 37,
+      "req_id": "2-37-f79558",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677216
+    },
+    {
+      "worker_id": 0,
+      "iteration": 38,
+      "req_id": "0-38-dddbbc",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677221
+    },
+    {
+      "worker_id": 1,
+      "iteration": 38,
+      "req_id": "1-38-6b198c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677221
+    },
+    {
+      "worker_id": 2,
+      "iteration": 38,
+      "req_id": "2-38-ba470b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677222
+    },
+    {
+      "worker_id": 3,
+      "iteration": 38,
+      "req_id": "3-38-12d706",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677222
+    },
+    {
+      "worker_id": 0,
+      "iteration": 39,
+      "req_id": "0-39-007f1e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677226
+    },
+    {
+      "worker_id": 1,
+      "iteration": 39,
+      "req_id": "1-39-54515c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677226
+    },
+    {
+      "worker_id": 2,
+      "iteration": 39,
+      "req_id": "2-39-ba514e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677227
+    },
+    {
+      "worker_id": 3,
+      "iteration": 39,
+      "req_id": "3-39-dc0e39",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677228
+    },
+    {
+      "worker_id": 1,
+      "iteration": 40,
+      "req_id": "1-40-d04ca2",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677232
+    },
+    {
+      "worker_id": 0,
+      "iteration": 40,
+      "req_id": "0-40-632673",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677232
+    },
+    {
+      "worker_id": 2,
+      "iteration": 40,
+      "req_id": "2-40-ef1881",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677232
+    },
+    {
+      "worker_id": 3,
+      "iteration": 40,
+      "req_id": "3-40-fcebb2",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677233
+    },
+    {
+      "worker_id": 1,
+      "iteration": 41,
+      "req_id": "1-41-90f77e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677237
+    },
+    {
+      "worker_id": 0,
+      "iteration": 41,
+      "req_id": "0-41-4f09b8",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677237
+    },
+    {
+      "worker_id": 2,
+      "iteration": 41,
+      "req_id": "2-41-a133e2",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677237
+    },
+    {
+      "worker_id": 3,
+      "iteration": 41,
+      "req_id": "3-41-10b41a",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677239
+    },
+    {
+      "worker_id": 1,
+      "iteration": 42,
+      "req_id": "1-42-d33d57",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677242
+    },
+    {
+      "worker_id": 2,
+      "iteration": 42,
+      "req_id": "2-42-6fd73d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677243
+    },
+    {
+      "worker_id": 0,
+      "iteration": 42,
+      "req_id": "0-42-801f61",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677243
+    },
+    {
+      "worker_id": 3,
+      "iteration": 42,
+      "req_id": "3-42-00c86d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677244
+    },
+    {
+      "worker_id": 1,
+      "iteration": 43,
+      "req_id": "1-43-155430",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677247
+    },
+    {
+      "worker_id": 0,
+      "iteration": 43,
+      "req_id": "0-43-cf3df6",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677248
+    },
+    {
+      "worker_id": 2,
+      "iteration": 43,
+      "req_id": "2-43-745cc9",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677248
+    },
+    {
+      "worker_id": 3,
+      "iteration": 43,
+      "req_id": "3-43-940798",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677250
+    },
+    {
+      "worker_id": 0,
+      "iteration": 44,
+      "req_id": "0-44-c27669",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677253
+    },
+    {
+      "worker_id": 1,
+      "iteration": 44,
+      "req_id": "1-44-bff159",
+      "latency_ms": 7,
+      "timestamp_ms": 1757915677254
+    },
+    {
+      "worker_id": 2,
+      "iteration": 44,
+      "req_id": "2-44-5f3030",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677254
+    },
+    {
+      "worker_id": 3,
+      "iteration": 44,
+      "req_id": "3-44-e43f45",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677255
+    },
+    {
+      "worker_id": 2,
+      "iteration": 45,
+      "req_id": "2-45-c66982",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677259
+    },
+    {
+      "worker_id": 1,
+      "iteration": 45,
+      "req_id": "1-45-40a714",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677259
+    },
+    {
+      "worker_id": 0,
+      "iteration": 45,
+      "req_id": "0-45-e1ee48",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677259
+    },
+    {
+      "worker_id": 3,
+      "iteration": 45,
+      "req_id": "3-45-b7a18b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677261
+    },
+    {
+      "worker_id": 1,
+      "iteration": 46,
+      "req_id": "1-46-a1a106",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677265
+    },
+    {
+      "worker_id": 2,
+      "iteration": 46,
+      "req_id": "2-46-d519b2",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677265
+    },
+    {
+      "worker_id": 0,
+      "iteration": 46,
+      "req_id": "0-46-f8d17c",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677265
+    },
+    {
+      "worker_id": 3,
+      "iteration": 46,
+      "req_id": "3-46-817d2b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677266
+    },
+    {
+      "worker_id": 0,
+      "iteration": 47,
+      "req_id": "0-47-615f4e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677270
+    },
+    {
+      "worker_id": 2,
+      "iteration": 47,
+      "req_id": "2-47-67bc92",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677270
+    },
+    {
+      "worker_id": 1,
+      "iteration": 47,
+      "req_id": "1-47-c68025",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677270
+    },
+    {
+      "worker_id": 3,
+      "iteration": 47,
+      "req_id": "3-47-0d6752",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677272
+    },
+    {
+      "worker_id": 0,
+      "iteration": 48,
+      "req_id": "0-48-fcb8f7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677275
+    },
+    {
+      "worker_id": 2,
+      "iteration": 48,
+      "req_id": "2-48-fc2960",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677275
+    },
+    {
+      "worker_id": 1,
+      "iteration": 48,
+      "req_id": "1-48-107b86",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677276
+    },
+    {
+      "worker_id": 3,
+      "iteration": 48,
+      "req_id": "3-48-d1c259",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677277
+    },
+    {
+      "worker_id": 2,
+      "iteration": 49,
+      "req_id": "2-49-cf89e3",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677281
+    },
+    {
+      "worker_id": 0,
+      "iteration": 49,
+      "req_id": "0-49-77eeb4",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677281
+    },
+    {
+      "worker_id": 1,
+      "iteration": 49,
+      "req_id": "1-49-a9988a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677281
+    },
+    {
+      "worker_id": 3,
+      "iteration": 49,
+      "req_id": "3-49-2e5313",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677282
+    },
+    {
+      "worker_id": 1,
+      "iteration": 50,
+      "req_id": "1-50-934340",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677286
+    },
+    {
+      "worker_id": 2,
+      "iteration": 50,
+      "req_id": "2-50-b1427f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677286
+    },
+    {
+      "worker_id": 0,
+      "iteration": 50,
+      "req_id": "0-50-4854a9",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677286
+    },
+    {
+      "worker_id": 3,
+      "iteration": 50,
+      "req_id": "3-50-1c4172",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677288
+    },
+    {
+      "worker_id": 0,
+      "iteration": 51,
+      "req_id": "0-51-8619ae",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677292
+    },
+    {
+      "worker_id": 2,
+      "iteration": 51,
+      "req_id": "2-51-8e3afb",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677292
+    },
+    {
+      "worker_id": 1,
+      "iteration": 51,
+      "req_id": "1-51-b3dd72",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677292
+    },
+    {
+      "worker_id": 3,
+      "iteration": 51,
+      "req_id": "3-51-ab6397",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677293
+    },
+    {
+      "worker_id": 1,
+      "iteration": 52,
+      "req_id": "1-52-0cb4a0",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677297
+    },
+    {
+      "worker_id": 2,
+      "iteration": 52,
+      "req_id": "2-52-43e71e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677297
+    },
+    {
+      "worker_id": 0,
+      "iteration": 52,
+      "req_id": "0-52-a306ee",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677297
+    },
+    {
+      "worker_id": 3,
+      "iteration": 52,
+      "req_id": "3-52-3b92cf",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677299
+    },
+    {
+      "worker_id": 1,
+      "iteration": 53,
+      "req_id": "1-53-cb2aa2",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677303
+    },
+    {
+      "worker_id": 0,
+      "iteration": 53,
+      "req_id": "0-53-43ea8e",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677303
+    },
+    {
+      "worker_id": 2,
+      "iteration": 53,
+      "req_id": "2-53-3d5768",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677303
+    },
+    {
+      "worker_id": 3,
+      "iteration": 53,
+      "req_id": "3-53-c9f488",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677304
+    },
+    {
+      "worker_id": 1,
+      "iteration": 54,
+      "req_id": "1-54-c0032e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677308
+    },
+    {
+      "worker_id": 2,
+      "iteration": 54,
+      "req_id": "2-54-dae292",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677309
+    },
+    {
+      "worker_id": 0,
+      "iteration": 54,
+      "req_id": "0-54-ee313b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677309
+    },
+    {
+      "worker_id": 3,
+      "iteration": 54,
+      "req_id": "3-54-a13b1b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677310
+    },
+    {
+      "worker_id": 1,
+      "iteration": 55,
+      "req_id": "1-55-c740a6",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677313
+    },
+    {
+      "worker_id": 0,
+      "iteration": 55,
+      "req_id": "0-55-b243b2",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677314
+    },
+    {
+      "worker_id": 2,
+      "iteration": 55,
+      "req_id": "2-55-e9eaa4",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677314
+    },
+    {
+      "worker_id": 3,
+      "iteration": 55,
+      "req_id": "3-55-e3f562",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677315
+    },
+    {
+      "worker_id": 1,
+      "iteration": 56,
+      "req_id": "1-56-3fb647",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677319
+    },
+    {
+      "worker_id": 2,
+      "iteration": 56,
+      "req_id": "2-56-e22f33",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677319
+    },
+    {
+      "worker_id": 0,
+      "iteration": 56,
+      "req_id": "0-56-88510a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677319
+    },
+    {
+      "worker_id": 3,
+      "iteration": 56,
+      "req_id": "3-56-14c7b9",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677320
+    },
+    {
+      "worker_id": 0,
+      "iteration": 57,
+      "req_id": "0-57-9909c3",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677325
+    },
+    {
+      "worker_id": 2,
+      "iteration": 57,
+      "req_id": "2-57-682df0",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677325
+    },
+    {
+      "worker_id": 1,
+      "iteration": 57,
+      "req_id": "1-57-093a7b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677325
+    },
+    {
+      "worker_id": 3,
+      "iteration": 57,
+      "req_id": "3-57-cffead",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677326
+    },
+    {
+      "worker_id": 2,
+      "iteration": 58,
+      "req_id": "2-58-6396b7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677330
+    },
+    {
+      "worker_id": 0,
+      "iteration": 58,
+      "req_id": "0-58-7cdb76",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677330
+    },
+    {
+      "worker_id": 1,
+      "iteration": 58,
+      "req_id": "1-58-2cae81",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677330
+    },
+    {
+      "worker_id": 3,
+      "iteration": 58,
+      "req_id": "3-58-1830f3",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677332
+    },
+    {
+      "worker_id": 1,
+      "iteration": 59,
+      "req_id": "1-59-64875e",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677336
+    },
+    {
+      "worker_id": 0,
+      "iteration": 59,
+      "req_id": "0-59-9b0cd8",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677336
+    },
+    {
+      "worker_id": 2,
+      "iteration": 59,
+      "req_id": "2-59-d667a3",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677336
+    },
+    {
+      "worker_id": 3,
+      "iteration": 59,
+      "req_id": "3-59-7c19fc",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677337
+    },
+    {
+      "worker_id": 2,
+      "iteration": 60,
+      "req_id": "2-60-1f2cb9",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677341
+    },
+    {
+      "worker_id": 1,
+      "iteration": 60,
+      "req_id": "1-60-e73921",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677341
+    },
+    {
+      "worker_id": 0,
+      "iteration": 60,
+      "req_id": "0-60-3fec1a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677341
+    },
+    {
+      "worker_id": 3,
+      "iteration": 60,
+      "req_id": "3-60-b96b55",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677343
+    },
+    {
+      "worker_id": 1,
+      "iteration": 61,
+      "req_id": "1-61-f45154",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677347
+    },
+    {
+      "worker_id": 2,
+      "iteration": 61,
+      "req_id": "2-61-800889",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677347
+    },
+    {
+      "worker_id": 0,
+      "iteration": 61,
+      "req_id": "0-61-cfb259",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677347
+    },
+    {
+      "worker_id": 3,
+      "iteration": 61,
+      "req_id": "3-61-363beb",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677348
+    },
+    {
+      "worker_id": 1,
+      "iteration": 62,
+      "req_id": "1-62-e393b5",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677352
+    },
+    {
+      "worker_id": 2,
+      "iteration": 62,
+      "req_id": "2-62-fcdc9a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677352
+    },
+    {
+      "worker_id": 0,
+      "iteration": 62,
+      "req_id": "0-62-c7e05f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677352
+    },
+    {
+      "worker_id": 3,
+      "iteration": 62,
+      "req_id": "3-62-07d6d0",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677353
+    },
+    {
+      "worker_id": 1,
+      "iteration": 63,
+      "req_id": "1-63-5f4bce",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677357
+    },
+    {
+      "worker_id": 2,
+      "iteration": 63,
+      "req_id": "2-63-afab55",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677358
+    },
+    {
+      "worker_id": 0,
+      "iteration": 63,
+      "req_id": "0-63-8c2a53",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677358
+    },
+    {
+      "worker_id": 3,
+      "iteration": 63,
+      "req_id": "3-63-74a41d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677359
+    },
+    {
+      "worker_id": 1,
+      "iteration": 64,
+      "req_id": "1-64-42271a",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677363
+    },
+    {
+      "worker_id": 2,
+      "iteration": 64,
+      "req_id": "2-64-a12c67",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677363
+    },
+    {
+      "worker_id": 0,
+      "iteration": 64,
+      "req_id": "0-64-9dca28",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677363
+    },
+    {
+      "worker_id": 3,
+      "iteration": 64,
+      "req_id": "3-64-4660c8",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677364
+    },
+    {
+      "worker_id": 1,
+      "iteration": 65,
+      "req_id": "1-65-3f6c82",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677368
+    },
+    {
+      "worker_id": 2,
+      "iteration": 65,
+      "req_id": "2-65-688b81",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677369
+    },
+    {
+      "worker_id": 0,
+      "iteration": 65,
+      "req_id": "0-65-825b57",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677369
+    },
+    {
+      "worker_id": 3,
+      "iteration": 65,
+      "req_id": "3-65-7e56ee",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677370
+    },
+    {
+      "worker_id": 1,
+      "iteration": 66,
+      "req_id": "1-66-1be5da",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677373
+    },
+    {
+      "worker_id": 2,
+      "iteration": 66,
+      "req_id": "2-66-c3fb68",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677374
+    },
+    {
+      "worker_id": 0,
+      "iteration": 66,
+      "req_id": "0-66-ad1743",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677374
+    },
+    {
+      "worker_id": 3,
+      "iteration": 66,
+      "req_id": "3-66-15b88f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677375
+    },
+    {
+      "worker_id": 1,
+      "iteration": 67,
+      "req_id": "1-67-b15702",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677379
+    },
+    {
+      "worker_id": 0,
+      "iteration": 67,
+      "req_id": "0-67-cbc5a9",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677379
+    },
+    {
+      "worker_id": 2,
+      "iteration": 67,
+      "req_id": "2-67-11aaf3",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677379
+    },
+    {
+      "worker_id": 3,
+      "iteration": 67,
+      "req_id": "3-67-ec4182",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677380
+    },
+    {
+      "worker_id": 2,
+      "iteration": 68,
+      "req_id": "2-68-9bb49f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677385
+    },
+    {
+      "worker_id": 0,
+      "iteration": 68,
+      "req_id": "0-68-80ab7e",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677385
+    },
+    {
+      "worker_id": 1,
+      "iteration": 68,
+      "req_id": "1-68-d0f07d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677385
+    },
+    {
+      "worker_id": 3,
+      "iteration": 68,
+      "req_id": "3-68-b7980c",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677386
+    },
+    {
+      "worker_id": 2,
+      "iteration": 69,
+      "req_id": "2-69-0c564a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677390
+    },
+    {
+      "worker_id": 0,
+      "iteration": 69,
+      "req_id": "0-69-4beb0b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677390
+    },
+    {
+      "worker_id": 1,
+      "iteration": 69,
+      "req_id": "1-69-f10bb8",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677390
+    },
+    {
+      "worker_id": 3,
+      "iteration": 69,
+      "req_id": "3-69-aee883",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677391
+    },
+    {
+      "worker_id": 2,
+      "iteration": 70,
+      "req_id": "2-70-dc299d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677395
+    },
+    {
+      "worker_id": 0,
+      "iteration": 70,
+      "req_id": "0-70-efc10d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677396
+    },
+    {
+      "worker_id": 1,
+      "iteration": 70,
+      "req_id": "1-70-7068a6",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677396
+    },
+    {
+      "worker_id": 3,
+      "iteration": 70,
+      "req_id": "3-70-56506c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677396
+    },
+    {
+      "worker_id": 0,
+      "iteration": 71,
+      "req_id": "0-71-50a915",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677401
+    },
+    {
+      "worker_id": 1,
+      "iteration": 71,
+      "req_id": "1-71-bf2fcb",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677401
+    },
+    {
+      "worker_id": 2,
+      "iteration": 71,
+      "req_id": "2-71-7704e0",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677401
+    },
+    {
+      "worker_id": 3,
+      "iteration": 71,
+      "req_id": "3-71-2328d1",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677401
+    },
+    {
+      "worker_id": 2,
+      "iteration": 72,
+      "req_id": "2-72-68cfdf",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677406
+    },
+    {
+      "worker_id": 3,
+      "iteration": 72,
+      "req_id": "3-72-78cbe0",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677406
+    },
+    {
+      "worker_id": 1,
+      "iteration": 72,
+      "req_id": "1-72-bdaaa0",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677406
+    },
+    {
+      "worker_id": 0,
+      "iteration": 72,
+      "req_id": "0-72-27ea14",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677406
+    },
+    {
+      "worker_id": 2,
+      "iteration": 73,
+      "req_id": "2-73-fa2c0f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677412
+    },
+    {
+      "worker_id": 0,
+      "iteration": 73,
+      "req_id": "0-73-bc45ee",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677412
+    },
+    {
+      "worker_id": 3,
+      "iteration": 73,
+      "req_id": "3-73-55bda6",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677412
+    },
+    {
+      "worker_id": 1,
+      "iteration": 73,
+      "req_id": "1-73-27d676",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677412
+    },
+    {
+      "worker_id": 2,
+      "iteration": 74,
+      "req_id": "2-74-bbe1f2",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677417
+    },
+    {
+      "worker_id": 0,
+      "iteration": 74,
+      "req_id": "0-74-27be80",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677417
+    },
+    {
+      "worker_id": 3,
+      "iteration": 74,
+      "req_id": "3-74-204742",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677417
+    },
+    {
+      "worker_id": 1,
+      "iteration": 74,
+      "req_id": "1-74-f24959",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677418
+    },
+    {
+      "worker_id": 2,
+      "iteration": 75,
+      "req_id": "2-75-8bb710",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677423
+    },
+    {
+      "worker_id": 3,
+      "iteration": 75,
+      "req_id": "3-75-328b88",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677423
+    },
+    {
+      "worker_id": 0,
+      "iteration": 75,
+      "req_id": "0-75-604e09",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677423
+    },
+    {
+      "worker_id": 1,
+      "iteration": 75,
+      "req_id": "1-75-e6a0d4",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677423
+    },
+    {
+      "worker_id": 3,
+      "iteration": 76,
+      "req_id": "3-76-fd9198",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677428
+    },
+    {
+      "worker_id": 2,
+      "iteration": 76,
+      "req_id": "2-76-7ca99b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677428
+    },
+    {
+      "worker_id": 1,
+      "iteration": 76,
+      "req_id": "1-76-246735",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677428
+    },
+    {
+      "worker_id": 0,
+      "iteration": 76,
+      "req_id": "0-76-295005",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677428
+    },
+    {
+      "worker_id": 2,
+      "iteration": 77,
+      "req_id": "2-77-d4f71f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677433
+    },
+    {
+      "worker_id": 3,
+      "iteration": 77,
+      "req_id": "3-77-34ff7d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677433
+    },
+    {
+      "worker_id": 0,
+      "iteration": 77,
+      "req_id": "0-77-a46086",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677434
+    },
+    {
+      "worker_id": 1,
+      "iteration": 77,
+      "req_id": "1-77-dca962",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677434
+    },
+    {
+      "worker_id": 2,
+      "iteration": 78,
+      "req_id": "2-78-2207ef",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677439
+    },
+    {
+      "worker_id": 3,
+      "iteration": 78,
+      "req_id": "3-78-8f8522",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677439
+    },
+    {
+      "worker_id": 1,
+      "iteration": 78,
+      "req_id": "1-78-f873de",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677439
+    },
+    {
+      "worker_id": 0,
+      "iteration": 78,
+      "req_id": "0-78-c39840",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677439
+    },
+    {
+      "worker_id": 1,
+      "iteration": 79,
+      "req_id": "1-79-5d49b5",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677444
+    },
+    {
+      "worker_id": 3,
+      "iteration": 79,
+      "req_id": "3-79-14e5a2",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677444
+    },
+    {
+      "worker_id": 2,
+      "iteration": 79,
+      "req_id": "2-79-088250",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677444
+    },
+    {
+      "worker_id": 0,
+      "iteration": 79,
+      "req_id": "0-79-5a146e",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677445
+    },
+    {
+      "worker_id": 1,
+      "iteration": 80,
+      "req_id": "1-80-d5e031",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677449
+    },
+    {
+      "worker_id": 3,
+      "iteration": 80,
+      "req_id": "3-80-84ef7d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677449
+    },
+    {
+      "worker_id": 0,
+      "iteration": 80,
+      "req_id": "0-80-aa8fba",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677450
+    },
+    {
+      "worker_id": 2,
+      "iteration": 80,
+      "req_id": "2-80-ce13d6",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677450
+    },
+    {
+      "worker_id": 1,
+      "iteration": 81,
+      "req_id": "1-81-f01247",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677455
+    },
+    {
+      "worker_id": 3,
+      "iteration": 81,
+      "req_id": "3-81-acd57a",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677455
+    },
+    {
+      "worker_id": 2,
+      "iteration": 81,
+      "req_id": "2-81-fa54e4",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677455
+    },
+    {
+      "worker_id": 0,
+      "iteration": 81,
+      "req_id": "0-81-b4114e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677455
+    },
+    {
+      "worker_id": 3,
+      "iteration": 82,
+      "req_id": "3-82-27ff3d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677460
+    },
+    {
+      "worker_id": 1,
+      "iteration": 82,
+      "req_id": "1-82-8df745",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677460
+    },
+    {
+      "worker_id": 2,
+      "iteration": 82,
+      "req_id": "2-82-3fe3d9",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677461
+    },
+    {
+      "worker_id": 0,
+      "iteration": 82,
+      "req_id": "0-82-7ea069",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677461
+    },
+    {
+      "worker_id": 1,
+      "iteration": 83,
+      "req_id": "1-83-c8a5eb",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677465
+    },
+    {
+      "worker_id": 3,
+      "iteration": 83,
+      "req_id": "3-83-a35584",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677465
+    },
+    {
+      "worker_id": 0,
+      "iteration": 83,
+      "req_id": "0-83-7c11f3",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677466
+    },
+    {
+      "worker_id": 2,
+      "iteration": 83,
+      "req_id": "2-83-a3aed5",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677466
+    },
+    {
+      "worker_id": 3,
+      "iteration": 84,
+      "req_id": "3-84-c10682",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677471
+    },
+    {
+      "worker_id": 1,
+      "iteration": 84,
+      "req_id": "1-84-09e0d7",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677471
+    },
+    {
+      "worker_id": 2,
+      "iteration": 84,
+      "req_id": "2-84-ef3ff9",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677472
+    },
+    {
+      "worker_id": 0,
+      "iteration": 84,
+      "req_id": "0-84-cfb42e",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677472
+    },
+    {
+      "worker_id": 1,
+      "iteration": 85,
+      "req_id": "1-85-7c5871",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677476
+    },
+    {
+      "worker_id": 3,
+      "iteration": 85,
+      "req_id": "3-85-0cde67",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677476
+    },
+    {
+      "worker_id": 2,
+      "iteration": 85,
+      "req_id": "2-85-0dfc31",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677477
+    },
+    {
+      "worker_id": 0,
+      "iteration": 85,
+      "req_id": "0-85-348dac",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677477
+    },
+    {
+      "worker_id": 1,
+      "iteration": 86,
+      "req_id": "1-86-7fad9c",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677482
+    },
+    {
+      "worker_id": 3,
+      "iteration": 86,
+      "req_id": "3-86-48558a",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677482
+    },
+    {
+      "worker_id": 2,
+      "iteration": 86,
+      "req_id": "2-86-77797b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677482
+    },
+    {
+      "worker_id": 0,
+      "iteration": 86,
+      "req_id": "0-86-2186ac",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677482
+    },
+    {
+      "worker_id": 3,
+      "iteration": 87,
+      "req_id": "3-87-9a8790",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677487
+    },
+    {
+      "worker_id": 1,
+      "iteration": 87,
+      "req_id": "1-87-718eb1",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677487
+    },
+    {
+      "worker_id": 2,
+      "iteration": 87,
+      "req_id": "2-87-b2e774",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677488
+    },
+    {
+      "worker_id": 0,
+      "iteration": 87,
+      "req_id": "0-87-9827b8",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677488
+    },
+    {
+      "worker_id": 3,
+      "iteration": 88,
+      "req_id": "3-88-f4ce28",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677492
+    },
+    {
+      "worker_id": 1,
+      "iteration": 88,
+      "req_id": "1-88-46b05f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677492
+    },
+    {
+      "worker_id": 2,
+      "iteration": 88,
+      "req_id": "2-88-f2243f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677493
+    },
+    {
+      "worker_id": 0,
+      "iteration": 88,
+      "req_id": "0-88-c9838e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677493
+    },
+    {
+      "worker_id": 1,
+      "iteration": 89,
+      "req_id": "1-89-fb01ee",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677498
+    },
+    {
+      "worker_id": 2,
+      "iteration": 89,
+      "req_id": "2-89-c61799",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677498
+    },
+    {
+      "worker_id": 3,
+      "iteration": 89,
+      "req_id": "3-89-259528",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677498
+    },
+    {
+      "worker_id": 0,
+      "iteration": 89,
+      "req_id": "0-89-a459af",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677499
+    },
+    {
+      "worker_id": 2,
+      "iteration": 90,
+      "req_id": "2-90-ad5410",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677504
+    },
+    {
+      "worker_id": 1,
+      "iteration": 90,
+      "req_id": "1-90-8a1d8c",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677504
+    },
+    {
+      "worker_id": 3,
+      "iteration": 90,
+      "req_id": "3-90-174166",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677504
+    },
+    {
+      "worker_id": 0,
+      "iteration": 90,
+      "req_id": "0-90-58439b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677504
+    },
+    {
+      "worker_id": 1,
+      "iteration": 91,
+      "req_id": "1-91-25dfd0",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677509
+    },
+    {
+      "worker_id": 2,
+      "iteration": 91,
+      "req_id": "2-91-3802e1",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677509
+    },
+    {
+      "worker_id": 3,
+      "iteration": 91,
+      "req_id": "3-91-2bb205",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677509
+    },
+    {
+      "worker_id": 0,
+      "iteration": 91,
+      "req_id": "0-91-e040b4",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677510
+    },
+    {
+      "worker_id": 1,
+      "iteration": 92,
+      "req_id": "1-92-9644cb",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677515
+    },
+    {
+      "worker_id": 3,
+      "iteration": 92,
+      "req_id": "3-92-30fd44",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677515
+    },
+    {
+      "worker_id": 2,
+      "iteration": 92,
+      "req_id": "2-92-bbb096",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677515
+    },
+    {
+      "worker_id": 0,
+      "iteration": 92,
+      "req_id": "0-92-0298ed",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677515
+    },
+    {
+      "worker_id": 1,
+      "iteration": 93,
+      "req_id": "1-93-ec474a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677520
+    },
+    {
+      "worker_id": 3,
+      "iteration": 93,
+      "req_id": "3-93-8dd42a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677520
+    },
+    {
+      "worker_id": 2,
+      "iteration": 93,
+      "req_id": "2-93-b52c16",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677520
+    },
+    {
+      "worker_id": 0,
+      "iteration": 93,
+      "req_id": "0-93-7e8915",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677521
+    },
+    {
+      "worker_id": 3,
+      "iteration": 94,
+      "req_id": "3-94-02d462",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677525
+    },
+    {
+      "worker_id": 1,
+      "iteration": 94,
+      "req_id": "1-94-11c6bc",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677525
+    },
+    {
+      "worker_id": 2,
+      "iteration": 94,
+      "req_id": "2-94-267a89",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677526
+    },
+    {
+      "worker_id": 0,
+      "iteration": 94,
+      "req_id": "0-94-6a5efb",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677526
+    },
+    {
+      "worker_id": 3,
+      "iteration": 95,
+      "req_id": "3-95-1f3c43",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677530
+    },
+    {
+      "worker_id": 1,
+      "iteration": 95,
+      "req_id": "1-95-2abb28",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677531
+    },
+    {
+      "worker_id": 2,
+      "iteration": 95,
+      "req_id": "2-95-453fef",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677531
+    },
+    {
+      "worker_id": 0,
+      "iteration": 95,
+      "req_id": "0-95-eeca25",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677532
+    },
+    {
+      "worker_id": 3,
+      "iteration": 96,
+      "req_id": "3-96-5b8487",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677536
+    },
+    {
+      "worker_id": 2,
+      "iteration": 96,
+      "req_id": "2-96-cbb7dc",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677536
+    },
+    {
+      "worker_id": 1,
+      "iteration": 96,
+      "req_id": "1-96-783d2c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677536
+    },
+    {
+      "worker_id": 0,
+      "iteration": 96,
+      "req_id": "0-96-0593e7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677537
+    },
+    {
+      "worker_id": 3,
+      "iteration": 97,
+      "req_id": "3-97-310f82",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677541
+    },
+    {
+      "worker_id": 2,
+      "iteration": 97,
+      "req_id": "2-97-00c367",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677542
+    },
+    {
+      "worker_id": 1,
+      "iteration": 97,
+      "req_id": "1-97-7c7fbd",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677542
+    },
+    {
+      "worker_id": 0,
+      "iteration": 97,
+      "req_id": "0-97-0b9b69",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677543
+    },
+    {
+      "worker_id": 3,
+      "iteration": 98,
+      "req_id": "3-98-c2d41d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677547
+    },
+    {
+      "worker_id": 2,
+      "iteration": 98,
+      "req_id": "2-98-f1b057",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677547
+    },
+    {
+      "worker_id": 1,
+      "iteration": 98,
+      "req_id": "1-98-3df9fc",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677547
+    },
+    {
+      "worker_id": 0,
+      "iteration": 98,
+      "req_id": "0-98-ac4c70",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677548
+    },
+    {
+      "worker_id": 3,
+      "iteration": 99,
+      "req_id": "3-99-88589a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677552
+    },
+    {
+      "worker_id": 1,
+      "iteration": 99,
+      "req_id": "1-99-38814d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677552
+    },
+    {
+      "worker_id": 2,
+      "iteration": 99,
+      "req_id": "2-99-74c575",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677552
+    },
+    {
+      "worker_id": 0,
+      "iteration": 99,
+      "req_id": "0-99-7f5dfe",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677553
+    },
+    {
+      "worker_id": 3,
+      "iteration": 100,
+      "req_id": "3-100-9a8fb6",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677557
+    },
+    {
+      "worker_id": 1,
+      "iteration": 100,
+      "req_id": "1-100-00820f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677558
+    },
+    {
+      "worker_id": 2,
+      "iteration": 100,
+      "req_id": "2-100-8f2e9d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677558
+    },
+    {
+      "worker_id": 0,
+      "iteration": 100,
+      "req_id": "0-100-0a4f37",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677559
+    },
+    {
+      "worker_id": 3,
+      "iteration": 101,
+      "req_id": "3-101-aff573",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677563
+    },
+    {
+      "worker_id": 1,
+      "iteration": 101,
+      "req_id": "1-101-fd55d5",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677563
+    },
+    {
+      "worker_id": 2,
+      "iteration": 101,
+      "req_id": "2-101-35cb75",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677563
+    },
+    {
+      "worker_id": 0,
+      "iteration": 101,
+      "req_id": "0-101-443899",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677564
+    },
+    {
+      "worker_id": 3,
+      "iteration": 102,
+      "req_id": "3-102-7930b1",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677568
+    },
+    {
+      "worker_id": 1,
+      "iteration": 102,
+      "req_id": "1-102-18cce3",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677569
+    },
+    {
+      "worker_id": 2,
+      "iteration": 102,
+      "req_id": "2-102-f4083f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677569
+    },
+    {
+      "worker_id": 0,
+      "iteration": 102,
+      "req_id": "0-102-8a84f4",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677570
+    },
+    {
+      "worker_id": 3,
+      "iteration": 103,
+      "req_id": "3-103-ec5e5c",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677574
+    },
+    {
+      "worker_id": 2,
+      "iteration": 103,
+      "req_id": "2-103-568eaf",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677574
+    },
+    {
+      "worker_id": 1,
+      "iteration": 103,
+      "req_id": "1-103-37c602",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677574
+    },
+    {
+      "worker_id": 0,
+      "iteration": 103,
+      "req_id": "0-103-a1d966",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677576
+    },
+    {
+      "worker_id": 2,
+      "iteration": 104,
+      "req_id": "2-104-3761a5",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677579
+    },
+    {
+      "worker_id": 1,
+      "iteration": 104,
+      "req_id": "1-104-8cfe4f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677579
+    },
+    {
+      "worker_id": 3,
+      "iteration": 104,
+      "req_id": "3-104-429c9d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677579
+    },
+    {
+      "worker_id": 0,
+      "iteration": 104,
+      "req_id": "0-104-94fe89",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677581
+    },
+    {
+      "worker_id": 2,
+      "iteration": 105,
+      "req_id": "2-105-e68411",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677585
+    },
+    {
+      "worker_id": 1,
+      "iteration": 105,
+      "req_id": "1-105-f3fb11",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677585
+    },
+    {
+      "worker_id": 3,
+      "iteration": 105,
+      "req_id": "3-105-aa8108",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677585
+    },
+    {
+      "worker_id": 0,
+      "iteration": 105,
+      "req_id": "0-105-b86bc6",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677586
+    },
+    {
+      "worker_id": 2,
+      "iteration": 106,
+      "req_id": "2-106-1f5c34",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677590
+    },
+    {
+      "worker_id": 3,
+      "iteration": 106,
+      "req_id": "3-106-7e6342",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677590
+    },
+    {
+      "worker_id": 1,
+      "iteration": 106,
+      "req_id": "1-106-118c8c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677590
+    },
+    {
+      "worker_id": 0,
+      "iteration": 106,
+      "req_id": "0-106-3bf32c",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677592
+    },
+    {
+      "worker_id": 2,
+      "iteration": 107,
+      "req_id": "2-107-001e04",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677595
+    },
+    {
+      "worker_id": 1,
+      "iteration": 107,
+      "req_id": "1-107-06ac4c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677595
+    },
+    {
+      "worker_id": 3,
+      "iteration": 107,
+      "req_id": "3-107-8b3b52",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677595
+    },
+    {
+      "worker_id": 0,
+      "iteration": 107,
+      "req_id": "0-107-6b9da8",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677597
+    },
+    {
+      "worker_id": 2,
+      "iteration": 108,
+      "req_id": "2-108-3016e2",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677600
+    },
+    {
+      "worker_id": 1,
+      "iteration": 108,
+      "req_id": "1-108-eb034f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677601
+    },
+    {
+      "worker_id": 3,
+      "iteration": 108,
+      "req_id": "3-108-d7eeb7",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677601
+    },
+    {
+      "worker_id": 0,
+      "iteration": 108,
+      "req_id": "0-108-b8ed15",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677603
+    },
+    {
+      "worker_id": 2,
+      "iteration": 109,
+      "req_id": "2-109-494a07",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677606
+    },
+    {
+      "worker_id": 3,
+      "iteration": 109,
+      "req_id": "3-109-e2ae28",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677606
+    },
+    {
+      "worker_id": 1,
+      "iteration": 109,
+      "req_id": "1-109-ffcf26",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677606
+    },
+    {
+      "worker_id": 0,
+      "iteration": 109,
+      "req_id": "0-109-ea3026",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677608
+    },
+    {
+      "worker_id": 3,
+      "iteration": 110,
+      "req_id": "3-110-130792",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677612
+    },
+    {
+      "worker_id": 1,
+      "iteration": 110,
+      "req_id": "1-110-f5b335",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677612
+    },
+    {
+      "worker_id": 2,
+      "iteration": 110,
+      "req_id": "2-110-029db7",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677612
+    },
+    {
+      "worker_id": 0,
+      "iteration": 110,
+      "req_id": "0-110-87c165",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677614
+    },
+    {
+      "worker_id": 3,
+      "iteration": 111,
+      "req_id": "3-111-2992cf",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677617
+    },
+    {
+      "worker_id": 1,
+      "iteration": 111,
+      "req_id": "1-111-9debbf",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677617
+    },
+    {
+      "worker_id": 2,
+      "iteration": 111,
+      "req_id": "2-111-cac2bb",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677618
+    },
+    {
+      "worker_id": 0,
+      "iteration": 111,
+      "req_id": "0-111-61d68f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677619
+    },
+    {
+      "worker_id": 2,
+      "iteration": 112,
+      "req_id": "2-112-cb0c63",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677623
+    },
+    {
+      "worker_id": 1,
+      "iteration": 112,
+      "req_id": "1-112-f348a5",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677623
+    },
+    {
+      "worker_id": 3,
+      "iteration": 112,
+      "req_id": "3-112-d4c2e7",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677623
+    },
+    {
+      "worker_id": 0,
+      "iteration": 112,
+      "req_id": "0-112-31cfe9",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677625
+    },
+    {
+      "worker_id": 2,
+      "iteration": 113,
+      "req_id": "2-113-08c317",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677628
+    },
+    {
+      "worker_id": 3,
+      "iteration": 113,
+      "req_id": "3-113-679423",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677628
+    },
+    {
+      "worker_id": 1,
+      "iteration": 113,
+      "req_id": "1-113-9529fa",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677628
+    },
+    {
+      "worker_id": 0,
+      "iteration": 113,
+      "req_id": "0-113-f59d74",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677630
+    },
+    {
+      "worker_id": 1,
+      "iteration": 114,
+      "req_id": "1-114-25c948",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677633
+    },
+    {
+      "worker_id": 2,
+      "iteration": 114,
+      "req_id": "2-114-8d3677",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677633
+    },
+    {
+      "worker_id": 3,
+      "iteration": 114,
+      "req_id": "3-114-231d48",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677633
+    },
+    {
+      "worker_id": 0,
+      "iteration": 114,
+      "req_id": "0-114-c6c692",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677636
+    },
+    {
+      "worker_id": 1,
+      "iteration": 115,
+      "req_id": "1-115-c77f34",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677639
+    },
+    {
+      "worker_id": 2,
+      "iteration": 115,
+      "req_id": "2-115-71adb4",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677639
+    },
+    {
+      "worker_id": 3,
+      "iteration": 115,
+      "req_id": "3-115-7b8c7f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677639
+    },
+    {
+      "worker_id": 0,
+      "iteration": 115,
+      "req_id": "0-115-e55797",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677641
+    },
+    {
+      "worker_id": 1,
+      "iteration": 116,
+      "req_id": "1-116-ac215c",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677645
+    },
+    {
+      "worker_id": 3,
+      "iteration": 116,
+      "req_id": "3-116-e31f2d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677645
+    },
+    {
+      "worker_id": 2,
+      "iteration": 116,
+      "req_id": "2-116-5dfb61",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677645
+    },
+    {
+      "worker_id": 0,
+      "iteration": 116,
+      "req_id": "0-116-a4f0de",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677647
+    },
+    {
+      "worker_id": 1,
+      "iteration": 117,
+      "req_id": "1-117-57b280",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677650
+    },
+    {
+      "worker_id": 3,
+      "iteration": 117,
+      "req_id": "3-117-9c58d1",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677650
+    },
+    {
+      "worker_id": 2,
+      "iteration": 117,
+      "req_id": "2-117-d3ec7e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677650
+    },
+    {
+      "worker_id": 0,
+      "iteration": 117,
+      "req_id": "0-117-ccf881",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677652
+    },
+    {
+      "worker_id": 1,
+      "iteration": 118,
+      "req_id": "1-118-233814",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677655
+    },
+    {
+      "worker_id": 3,
+      "iteration": 118,
+      "req_id": "3-118-e7ece4",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677656
+    },
+    {
+      "worker_id": 2,
+      "iteration": 118,
+      "req_id": "2-118-6b1b79",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677656
+    },
+    {
+      "worker_id": 0,
+      "iteration": 118,
+      "req_id": "0-118-2b31db",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677658
+    },
+    {
+      "worker_id": 1,
+      "iteration": 119,
+      "req_id": "1-119-0662d7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677660
+    },
+    {
+      "worker_id": 3,
+      "iteration": 119,
+      "req_id": "3-119-d35a2f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677661
+    },
+    {
+      "worker_id": 2,
+      "iteration": 119,
+      "req_id": "2-119-112134",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677661
+    },
+    {
+      "worker_id": 0,
+      "iteration": 119,
+      "req_id": "0-119-b7af9b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677663
+    },
+    {
+      "worker_id": 1,
+      "iteration": 120,
+      "req_id": "1-120-44e6f0",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677665
+    },
+    {
+      "worker_id": 3,
+      "iteration": 120,
+      "req_id": "3-120-2f9edd",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677666
+    },
+    {
+      "worker_id": 2,
+      "iteration": 120,
+      "req_id": "2-120-809c58",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677667
+    },
+    {
+      "worker_id": 0,
+      "iteration": 120,
+      "req_id": "0-120-bdf0b5",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677669
+    },
+    {
+      "worker_id": 1,
+      "iteration": 121,
+      "req_id": "1-121-03eeda",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677671
+    },
+    {
+      "worker_id": 3,
+      "iteration": 121,
+      "req_id": "3-121-67a344",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677671
+    },
+    {
+      "worker_id": 2,
+      "iteration": 121,
+      "req_id": "2-121-018adf",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677672
+    },
+    {
+      "worker_id": 0,
+      "iteration": 121,
+      "req_id": "0-121-e8eeba",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677674
+    },
+    {
+      "worker_id": 1,
+      "iteration": 122,
+      "req_id": "1-122-828d09",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677676
+    },
+    {
+      "worker_id": 3,
+      "iteration": 122,
+      "req_id": "3-122-b66f3e",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677677
+    },
+    {
+      "worker_id": 2,
+      "iteration": 122,
+      "req_id": "2-122-ce36dd",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677677
+    },
+    {
+      "worker_id": 0,
+      "iteration": 122,
+      "req_id": "0-122-dd655b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677680
+    },
+    {
+      "worker_id": 1,
+      "iteration": 123,
+      "req_id": "1-123-945652",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677681
+    },
+    {
+      "worker_id": 3,
+      "iteration": 123,
+      "req_id": "3-123-428ee8",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677682
+    },
+    {
+      "worker_id": 2,
+      "iteration": 123,
+      "req_id": "2-123-c49064",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677683
+    },
+    {
+      "worker_id": 0,
+      "iteration": 123,
+      "req_id": "0-123-9db6be",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677685
+    },
+    {
+      "worker_id": 1,
+      "iteration": 124,
+      "req_id": "1-124-b3e72d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677687
+    },
+    {
+      "worker_id": 3,
+      "iteration": 124,
+      "req_id": "3-124-9345fe",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677688
+    },
+    {
+      "worker_id": 2,
+      "iteration": 124,
+      "req_id": "2-124-1dcd5a",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677689
+    },
+    {
+      "worker_id": 0,
+      "iteration": 124,
+      "req_id": "0-124-afe318",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677691
+    },
+    {
+      "worker_id": 1,
+      "iteration": 125,
+      "req_id": "1-125-902e4f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677692
+    },
+    {
+      "worker_id": 3,
+      "iteration": 125,
+      "req_id": "3-125-6595d9",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677693
+    },
+    {
+      "worker_id": 2,
+      "iteration": 125,
+      "req_id": "2-125-c8c240",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677694
+    },
+    {
+      "worker_id": 0,
+      "iteration": 125,
+      "req_id": "0-125-b335fe",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677696
+    },
+    {
+      "worker_id": 1,
+      "iteration": 126,
+      "req_id": "1-126-383cb3",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677698
+    },
+    {
+      "worker_id": 3,
+      "iteration": 126,
+      "req_id": "3-126-96c6ab",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677699
+    },
+    {
+      "worker_id": 2,
+      "iteration": 126,
+      "req_id": "2-126-987c32",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677700
+    },
+    {
+      "worker_id": 0,
+      "iteration": 126,
+      "req_id": "0-126-56ad06",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677702
+    },
+    {
+      "worker_id": 1,
+      "iteration": 127,
+      "req_id": "1-127-21fc72",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677703
+    },
+    {
+      "worker_id": 3,
+      "iteration": 127,
+      "req_id": "3-127-6f6f1f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677704
+    },
+    {
+      "worker_id": 2,
+      "iteration": 127,
+      "req_id": "2-127-8f948b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677705
+    },
+    {
+      "worker_id": 0,
+      "iteration": 127,
+      "req_id": "0-127-afc893",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677707
+    },
+    {
+      "worker_id": 1,
+      "iteration": 128,
+      "req_id": "1-128-71b3b0",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677708
+    },
+    {
+      "worker_id": 3,
+      "iteration": 128,
+      "req_id": "3-128-02b06c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677709
+    },
+    {
+      "worker_id": 2,
+      "iteration": 128,
+      "req_id": "2-128-c13be6",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677710
+    },
+    {
+      "worker_id": 0,
+      "iteration": 128,
+      "req_id": "0-128-22b5d8",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677712
+    },
+    {
+      "worker_id": 1,
+      "iteration": 129,
+      "req_id": "1-129-7c399b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677714
+    },
+    {
+      "worker_id": 3,
+      "iteration": 129,
+      "req_id": "3-129-8be609",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677715
+    },
+    {
+      "worker_id": 2,
+      "iteration": 129,
+      "req_id": "2-129-c86635",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677716
+    },
+    {
+      "worker_id": 0,
+      "iteration": 129,
+      "req_id": "0-129-bda08a",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677718
+    },
+    {
+      "worker_id": 1,
+      "iteration": 130,
+      "req_id": "1-130-ce2ee2",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677720
+    },
+    {
+      "worker_id": 3,
+      "iteration": 130,
+      "req_id": "3-130-b18511",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677720
+    },
+    {
+      "worker_id": 2,
+      "iteration": 130,
+      "req_id": "2-130-450f8f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677721
+    },
+    {
+      "worker_id": 0,
+      "iteration": 130,
+      "req_id": "0-130-82ccde",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677723
+    },
+    {
+      "worker_id": 1,
+      "iteration": 131,
+      "req_id": "1-131-7e8e3f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677725
+    },
+    {
+      "worker_id": 3,
+      "iteration": 131,
+      "req_id": "3-131-394f88",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677726
+    },
+    {
+      "worker_id": 2,
+      "iteration": 131,
+      "req_id": "2-131-2aca99",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677727
+    },
+    {
+      "worker_id": 0,
+      "iteration": 131,
+      "req_id": "0-131-d46d7d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677728
+    },
+    {
+      "worker_id": 1,
+      "iteration": 132,
+      "req_id": "1-132-00f579",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677730
+    },
+    {
+      "worker_id": 3,
+      "iteration": 132,
+      "req_id": "3-132-a0e13b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677732
+    },
+    {
+      "worker_id": 2,
+      "iteration": 132,
+      "req_id": "2-132-f0e695",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677732
+    },
+    {
+      "worker_id": 0,
+      "iteration": 132,
+      "req_id": "0-132-905752",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677734
+    },
+    {
+      "worker_id": 1,
+      "iteration": 133,
+      "req_id": "1-133-743e80",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677736
+    },
+    {
+      "worker_id": 3,
+      "iteration": 133,
+      "req_id": "3-133-34afaf",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677737
+    },
+    {
+      "worker_id": 2,
+      "iteration": 133,
+      "req_id": "2-133-ee89f1",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677738
+    },
+    {
+      "worker_id": 0,
+      "iteration": 133,
+      "req_id": "0-133-10547a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677739
+    },
+    {
+      "worker_id": 1,
+      "iteration": 134,
+      "req_id": "1-134-3c3b3a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677741
+    },
+    {
+      "worker_id": 3,
+      "iteration": 134,
+      "req_id": "3-134-17436e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677742
+    },
+    {
+      "worker_id": 2,
+      "iteration": 134,
+      "req_id": "2-134-3f7ca0",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677743
+    },
+    {
+      "worker_id": 0,
+      "iteration": 134,
+      "req_id": "0-134-c4ecda",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677744
+    },
+    {
+      "worker_id": 1,
+      "iteration": 135,
+      "req_id": "1-135-8a3a2f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677746
+    },
+    {
+      "worker_id": 3,
+      "iteration": 135,
+      "req_id": "3-135-20907f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677748
+    },
+    {
+      "worker_id": 2,
+      "iteration": 135,
+      "req_id": "2-135-d78f8d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677748
+    },
+    {
+      "worker_id": 0,
+      "iteration": 135,
+      "req_id": "0-135-1e51d0",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677750
+    },
+    {
+      "worker_id": 1,
+      "iteration": 136,
+      "req_id": "1-136-9d6895",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677752
+    },
+    {
+      "worker_id": 3,
+      "iteration": 136,
+      "req_id": "3-136-bfab7b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677753
+    },
+    {
+      "worker_id": 2,
+      "iteration": 136,
+      "req_id": "2-136-dd028f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677754
+    },
+    {
+      "worker_id": 0,
+      "iteration": 136,
+      "req_id": "0-136-9eee3b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677756
+    },
+    {
+      "worker_id": 1,
+      "iteration": 137,
+      "req_id": "1-137-52a5ea",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677757
+    },
+    {
+      "worker_id": 3,
+      "iteration": 137,
+      "req_id": "3-137-f82060",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677758
+    },
+    {
+      "worker_id": 2,
+      "iteration": 137,
+      "req_id": "2-137-59374d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677759
+    },
+    {
+      "worker_id": 0,
+      "iteration": 137,
+      "req_id": "0-137-efbd5f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677761
+    },
+    {
+      "worker_id": 1,
+      "iteration": 138,
+      "req_id": "1-138-af8bf5",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677763
+    },
+    {
+      "worker_id": 3,
+      "iteration": 138,
+      "req_id": "3-138-ed1866",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677764
+    },
+    {
+      "worker_id": 2,
+      "iteration": 138,
+      "req_id": "2-138-cacf5b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677764
+    },
+    {
+      "worker_id": 0,
+      "iteration": 138,
+      "req_id": "0-138-862424",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677766
+    },
+    {
+      "worker_id": 1,
+      "iteration": 139,
+      "req_id": "1-139-d2f3fe",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677768
+    },
+    {
+      "worker_id": 3,
+      "iteration": 139,
+      "req_id": "3-139-cf28e5",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677769
+    },
+    {
+      "worker_id": 2,
+      "iteration": 139,
+      "req_id": "2-139-316904",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677769
+    },
+    {
+      "worker_id": 0,
+      "iteration": 139,
+      "req_id": "0-139-0ead61",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677771
+    },
+    {
+      "worker_id": 1,
+      "iteration": 140,
+      "req_id": "1-140-53c04a",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677774
+    },
+    {
+      "worker_id": 3,
+      "iteration": 140,
+      "req_id": "3-140-e2f46b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677774
+    },
+    {
+      "worker_id": 2,
+      "iteration": 140,
+      "req_id": "2-140-1ee7dd",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677775
+    },
+    {
+      "worker_id": 0,
+      "iteration": 140,
+      "req_id": "0-140-0c48f6",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677777
+    },
+    {
+      "worker_id": 1,
+      "iteration": 141,
+      "req_id": "1-141-ea4db2",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677779
+    },
+    {
+      "worker_id": 3,
+      "iteration": 141,
+      "req_id": "3-141-daaf76",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677779
+    },
+    {
+      "worker_id": 2,
+      "iteration": 141,
+      "req_id": "2-141-0bbbb6",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677780
+    },
+    {
+      "worker_id": 0,
+      "iteration": 141,
+      "req_id": "0-141-a531c1",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677782
+    },
+    {
+      "worker_id": 1,
+      "iteration": 142,
+      "req_id": "1-142-a69c1f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677785
+    },
+    {
+      "worker_id": 3,
+      "iteration": 142,
+      "req_id": "3-142-b4c7a3",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677785
+    },
+    {
+      "worker_id": 2,
+      "iteration": 142,
+      "req_id": "2-142-39e058",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677785
+    },
+    {
+      "worker_id": 0,
+      "iteration": 142,
+      "req_id": "0-142-30c054",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677787
+    },
+    {
+      "worker_id": 3,
+      "iteration": 143,
+      "req_id": "3-143-4c338a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677790
+    },
+    {
+      "worker_id": 1,
+      "iteration": 143,
+      "req_id": "1-143-27377c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677790
+    },
+    {
+      "worker_id": 2,
+      "iteration": 143,
+      "req_id": "2-143-436b47",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677790
+    },
+    {
+      "worker_id": 0,
+      "iteration": 143,
+      "req_id": "0-143-4c31f8",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677793
+    },
+    {
+      "worker_id": 3,
+      "iteration": 144,
+      "req_id": "3-144-552c54",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677795
+    },
+    {
+      "worker_id": 1,
+      "iteration": 144,
+      "req_id": "1-144-a34685",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677796
+    },
+    {
+      "worker_id": 2,
+      "iteration": 144,
+      "req_id": "2-144-d0e7c2",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677796
+    },
+    {
+      "worker_id": 0,
+      "iteration": 144,
+      "req_id": "0-144-730281",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677798
+    },
+    {
+      "worker_id": 2,
+      "iteration": 145,
+      "req_id": "2-145-f555ed",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677801
+    },
+    {
+      "worker_id": 1,
+      "iteration": 145,
+      "req_id": "1-145-32cd8e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677801
+    },
+    {
+      "worker_id": 3,
+      "iteration": 145,
+      "req_id": "3-145-24f2c5",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677801
+    },
+    {
+      "worker_id": 0,
+      "iteration": 145,
+      "req_id": "0-145-01b4d1",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677803
+    },
+    {
+      "worker_id": 1,
+      "iteration": 146,
+      "req_id": "1-146-3a633d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677806
+    },
+    {
+      "worker_id": 2,
+      "iteration": 146,
+      "req_id": "2-146-647943",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677806
+    },
+    {
+      "worker_id": 3,
+      "iteration": 146,
+      "req_id": "3-146-235056",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677806
+    },
+    {
+      "worker_id": 0,
+      "iteration": 146,
+      "req_id": "0-146-23f978",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677808
+    },
+    {
+      "worker_id": 1,
+      "iteration": 147,
+      "req_id": "1-147-591b72",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677812
+    },
+    {
+      "worker_id": 2,
+      "iteration": 147,
+      "req_id": "2-147-5a4931",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677812
+    },
+    {
+      "worker_id": 3,
+      "iteration": 147,
+      "req_id": "3-147-079849",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677812
+    },
+    {
+      "worker_id": 0,
+      "iteration": 147,
+      "req_id": "0-147-81d6aa",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677814
+    },
+    {
+      "worker_id": 1,
+      "iteration": 148,
+      "req_id": "1-148-123e9e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677817
+    },
+    {
+      "worker_id": 3,
+      "iteration": 148,
+      "req_id": "3-148-73185a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677817
+    },
+    {
+      "worker_id": 2,
+      "iteration": 148,
+      "req_id": "2-148-601400",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677817
+    },
+    {
+      "worker_id": 0,
+      "iteration": 148,
+      "req_id": "0-148-6dbc3c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677819
+    },
+    {
+      "worker_id": 1,
+      "iteration": 149,
+      "req_id": "1-149-b76290",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677823
+    },
+    {
+      "worker_id": 2,
+      "iteration": 149,
+      "req_id": "2-149-3bbb49",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677823
+    },
+    {
+      "worker_id": 3,
+      "iteration": 149,
+      "req_id": "3-149-1835f7",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677823
+    },
+    {
+      "worker_id": 0,
+      "iteration": 149,
+      "req_id": "0-149-8a3e22",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677825
+    },
+    {
+      "worker_id": 1,
+      "iteration": 150,
+      "req_id": "1-150-d0bd5b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677828
+    },
+    {
+      "worker_id": 2,
+      "iteration": 150,
+      "req_id": "2-150-021893",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677828
+    },
+    {
+      "worker_id": 3,
+      "iteration": 150,
+      "req_id": "3-150-8de08e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677828
+    },
+    {
+      "worker_id": 0,
+      "iteration": 150,
+      "req_id": "0-150-60d833",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677830
+    },
+    {
+      "worker_id": 1,
+      "iteration": 151,
+      "req_id": "1-151-7d062f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677834
+    },
+    {
+      "worker_id": 3,
+      "iteration": 151,
+      "req_id": "3-151-4bb0ae",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677834
+    },
+    {
+      "worker_id": 2,
+      "iteration": 151,
+      "req_id": "2-151-9faa61",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677834
+    },
+    {
+      "worker_id": 0,
+      "iteration": 151,
+      "req_id": "0-151-e8c1f1",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677836
+    },
+    {
+      "worker_id": 2,
+      "iteration": 152,
+      "req_id": "2-152-800cfc",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677839
+    },
+    {
+      "worker_id": 1,
+      "iteration": 152,
+      "req_id": "1-152-8b7089",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677839
+    },
+    {
+      "worker_id": 3,
+      "iteration": 152,
+      "req_id": "3-152-f6af09",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677839
+    },
+    {
+      "worker_id": 0,
+      "iteration": 152,
+      "req_id": "0-152-b11189",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677841
+    },
+    {
+      "worker_id": 2,
+      "iteration": 153,
+      "req_id": "2-153-fe9c56",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677845
+    },
+    {
+      "worker_id": 3,
+      "iteration": 153,
+      "req_id": "3-153-551e18",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677845
+    },
+    {
+      "worker_id": 1,
+      "iteration": 153,
+      "req_id": "1-153-b32cad",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677845
+    },
+    {
+      "worker_id": 0,
+      "iteration": 153,
+      "req_id": "0-153-1f589e",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677847
+    },
+    {
+      "worker_id": 3,
+      "iteration": 154,
+      "req_id": "3-154-a948b0",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677850
+    },
+    {
+      "worker_id": 1,
+      "iteration": 154,
+      "req_id": "1-154-03d3f1",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677850
+    },
+    {
+      "worker_id": 2,
+      "iteration": 154,
+      "req_id": "2-154-c7d75e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677850
+    },
+    {
+      "worker_id": 0,
+      "iteration": 154,
+      "req_id": "0-154-8aa515",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677852
+    },
+    {
+      "worker_id": 3,
+      "iteration": 155,
+      "req_id": "3-155-037bce",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677855
+    },
+    {
+      "worker_id": 1,
+      "iteration": 155,
+      "req_id": "1-155-b3a09a",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677856
+    },
+    {
+      "worker_id": 2,
+      "iteration": 155,
+      "req_id": "2-155-58fd3c",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677856
+    },
+    {
+      "worker_id": 0,
+      "iteration": 155,
+      "req_id": "0-155-891aab",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677857
+    },
+    {
+      "worker_id": 3,
+      "iteration": 156,
+      "req_id": "3-156-64ac6a",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677861
+    },
+    {
+      "worker_id": 2,
+      "iteration": 156,
+      "req_id": "2-156-d7d5c2",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677861
+    },
+    {
+      "worker_id": 1,
+      "iteration": 156,
+      "req_id": "1-156-578d74",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677861
+    },
+    {
+      "worker_id": 0,
+      "iteration": 156,
+      "req_id": "0-156-2256cb",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677863
+    },
+    {
+      "worker_id": 3,
+      "iteration": 157,
+      "req_id": "3-157-c20fcf",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677866
+    },
+    {
+      "worker_id": 2,
+      "iteration": 157,
+      "req_id": "2-157-736744",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677867
+    },
+    {
+      "worker_id": 1,
+      "iteration": 157,
+      "req_id": "1-157-dcb55a",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677867
+    },
+    {
+      "worker_id": 0,
+      "iteration": 157,
+      "req_id": "0-157-77660b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677868
+    },
+    {
+      "worker_id": 3,
+      "iteration": 158,
+      "req_id": "3-158-bb1d9a",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677872
+    },
+    {
+      "worker_id": 2,
+      "iteration": 158,
+      "req_id": "2-158-9e2832",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677872
+    },
+    {
+      "worker_id": 1,
+      "iteration": 158,
+      "req_id": "1-158-e6419d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677872
+    },
+    {
+      "worker_id": 0,
+      "iteration": 158,
+      "req_id": "0-158-cb41a6",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677874
+    },
+    {
+      "worker_id": 3,
+      "iteration": 159,
+      "req_id": "3-159-472411",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677877
+    },
+    {
+      "worker_id": 2,
+      "iteration": 159,
+      "req_id": "2-159-2a8e5f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677878
+    },
+    {
+      "worker_id": 1,
+      "iteration": 159,
+      "req_id": "1-159-83b849",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677878
+    },
+    {
+      "worker_id": 0,
+      "iteration": 159,
+      "req_id": "0-159-f6f133",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677879
+    },
+    {
+      "worker_id": 3,
+      "iteration": 160,
+      "req_id": "3-160-f88257",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677883
+    },
+    {
+      "worker_id": 1,
+      "iteration": 160,
+      "req_id": "1-160-d85ea9",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677883
+    },
+    {
+      "worker_id": 2,
+      "iteration": 160,
+      "req_id": "2-160-abffcf",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677883
+    },
+    {
+      "worker_id": 0,
+      "iteration": 160,
+      "req_id": "0-160-042c25",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677885
+    },
+    {
+      "worker_id": 3,
+      "iteration": 161,
+      "req_id": "3-161-117e25",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677888
+    },
+    {
+      "worker_id": 1,
+      "iteration": 161,
+      "req_id": "1-161-1f41de",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677889
+    },
+    {
+      "worker_id": 2,
+      "iteration": 161,
+      "req_id": "2-161-f75c7e",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677889
+    },
+    {
+      "worker_id": 0,
+      "iteration": 161,
+      "req_id": "0-161-8375f1",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677890
+    },
+    {
+      "worker_id": 1,
+      "iteration": 162,
+      "req_id": "1-162-16aa1a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677894
+    },
+    {
+      "worker_id": 3,
+      "iteration": 162,
+      "req_id": "3-162-31b094",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677894
+    },
+    {
+      "worker_id": 2,
+      "iteration": 162,
+      "req_id": "2-162-b0e315",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677895
+    },
+    {
+      "worker_id": 0,
+      "iteration": 162,
+      "req_id": "0-162-fe9bcb",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677896
+    },
+    {
+      "worker_id": 3,
+      "iteration": 163,
+      "req_id": "3-163-afc8b1",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677899
+    },
+    {
+      "worker_id": 1,
+      "iteration": 163,
+      "req_id": "1-163-fbab5f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677899
+    },
+    {
+      "worker_id": 2,
+      "iteration": 163,
+      "req_id": "2-163-d1481d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677900
+    },
+    {
+      "worker_id": 0,
+      "iteration": 163,
+      "req_id": "0-163-04ed0c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677901
+    },
+    {
+      "worker_id": 3,
+      "iteration": 164,
+      "req_id": "3-164-227885",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677904
+    },
+    {
+      "worker_id": 1,
+      "iteration": 164,
+      "req_id": "1-164-fab110",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677904
+    },
+    {
+      "worker_id": 2,
+      "iteration": 164,
+      "req_id": "2-164-ba4be1",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677905
+    },
+    {
+      "worker_id": 0,
+      "iteration": 164,
+      "req_id": "0-164-92c68d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677907
+    },
+    {
+      "worker_id": 3,
+      "iteration": 165,
+      "req_id": "3-165-e8c41f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677910
+    },
+    {
+      "worker_id": 1,
+      "iteration": 165,
+      "req_id": "1-165-b9e3f3",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677910
+    },
+    {
+      "worker_id": 2,
+      "iteration": 165,
+      "req_id": "2-165-1aa0ac",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677911
+    },
+    {
+      "worker_id": 0,
+      "iteration": 165,
+      "req_id": "0-165-49401b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677912
+    },
+    {
+      "worker_id": 1,
+      "iteration": 166,
+      "req_id": "1-166-c9e88e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677915
+    },
+    {
+      "worker_id": 3,
+      "iteration": 166,
+      "req_id": "3-166-5300b9",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677915
+    },
+    {
+      "worker_id": 2,
+      "iteration": 166,
+      "req_id": "2-166-683924",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677917
+    },
+    {
+      "worker_id": 0,
+      "iteration": 166,
+      "req_id": "0-166-c69495",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677918
+    },
+    {
+      "worker_id": 1,
+      "iteration": 167,
+      "req_id": "1-167-6d61ed",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677921
+    },
+    {
+      "worker_id": 3,
+      "iteration": 167,
+      "req_id": "3-167-7004e9",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677921
+    },
+    {
+      "worker_id": 2,
+      "iteration": 167,
+      "req_id": "2-167-034619",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677922
+    },
+    {
+      "worker_id": 0,
+      "iteration": 167,
+      "req_id": "0-167-acf204",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677923
+    },
+    {
+      "worker_id": 3,
+      "iteration": 168,
+      "req_id": "3-168-c847fb",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677926
+    },
+    {
+      "worker_id": 1,
+      "iteration": 168,
+      "req_id": "1-168-ba038c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677926
+    },
+    {
+      "worker_id": 2,
+      "iteration": 168,
+      "req_id": "2-168-f950fd",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677928
+    },
+    {
+      "worker_id": 0,
+      "iteration": 168,
+      "req_id": "0-168-0980d0",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677929
+    },
+    {
+      "worker_id": 3,
+      "iteration": 169,
+      "req_id": "3-169-c800e3",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677931
+    },
+    {
+      "worker_id": 1,
+      "iteration": 169,
+      "req_id": "1-169-15ac90",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677931
+    },
+    {
+      "worker_id": 2,
+      "iteration": 169,
+      "req_id": "2-169-21447f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677933
+    },
+    {
+      "worker_id": 0,
+      "iteration": 169,
+      "req_id": "0-169-c6a17d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677934
+    },
+    {
+      "worker_id": 3,
+      "iteration": 170,
+      "req_id": "3-170-214d6b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677937
+    },
+    {
+      "worker_id": 1,
+      "iteration": 170,
+      "req_id": "1-170-3182e5",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677937
+    },
+    {
+      "worker_id": 2,
+      "iteration": 170,
+      "req_id": "2-170-d20615",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677939
+    },
+    {
+      "worker_id": 0,
+      "iteration": 170,
+      "req_id": "0-170-44fd2f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677940
+    },
+    {
+      "worker_id": 3,
+      "iteration": 171,
+      "req_id": "3-171-5c1ee9",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677942
+    },
+    {
+      "worker_id": 1,
+      "iteration": 171,
+      "req_id": "1-171-cef486",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677942
+    },
+    {
+      "worker_id": 2,
+      "iteration": 171,
+      "req_id": "2-171-6a2924",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677944
+    },
+    {
+      "worker_id": 0,
+      "iteration": 171,
+      "req_id": "0-171-2025c4",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677945
+    },
+    {
+      "worker_id": 3,
+      "iteration": 172,
+      "req_id": "3-172-b974b1",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677948
+    },
+    {
+      "worker_id": 1,
+      "iteration": 172,
+      "req_id": "1-172-667b02",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677948
+    },
+    {
+      "worker_id": 2,
+      "iteration": 172,
+      "req_id": "2-172-de2150",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677950
+    },
+    {
+      "worker_id": 0,
+      "iteration": 172,
+      "req_id": "0-172-b6569b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677951
+    },
+    {
+      "worker_id": 1,
+      "iteration": 173,
+      "req_id": "1-173-a1170c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677953
+    },
+    {
+      "worker_id": 3,
+      "iteration": 173,
+      "req_id": "3-173-a848eb",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677953
+    },
+    {
+      "worker_id": 2,
+      "iteration": 173,
+      "req_id": "2-173-deea5d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677955
+    },
+    {
+      "worker_id": 0,
+      "iteration": 173,
+      "req_id": "0-173-2332fa",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677956
+    },
+    {
+      "worker_id": 3,
+      "iteration": 174,
+      "req_id": "3-174-de3808",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677959
+    },
+    {
+      "worker_id": 1,
+      "iteration": 174,
+      "req_id": "1-174-7048cf",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677959
+    },
+    {
+      "worker_id": 2,
+      "iteration": 174,
+      "req_id": "2-174-5d2425",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677961
+    },
+    {
+      "worker_id": 0,
+      "iteration": 174,
+      "req_id": "0-174-520e3c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677961
+    },
+    {
+      "worker_id": 1,
+      "iteration": 175,
+      "req_id": "1-175-8d4474",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677964
+    },
+    {
+      "worker_id": 3,
+      "iteration": 175,
+      "req_id": "3-175-bc6658",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677965
+    },
+    {
+      "worker_id": 2,
+      "iteration": 175,
+      "req_id": "2-175-cf239f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677966
+    },
+    {
+      "worker_id": 0,
+      "iteration": 175,
+      "req_id": "0-175-3f190b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677967
+    },
+    {
+      "worker_id": 1,
+      "iteration": 176,
+      "req_id": "1-176-ef0fe7",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677970
+    },
+    {
+      "worker_id": 3,
+      "iteration": 176,
+      "req_id": "3-176-da1c75",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677970
+    },
+    {
+      "worker_id": 2,
+      "iteration": 176,
+      "req_id": "2-176-9b9e03",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677971
+    },
+    {
+      "worker_id": 0,
+      "iteration": 176,
+      "req_id": "0-176-dcaa11",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677972
+    },
+    {
+      "worker_id": 3,
+      "iteration": 177,
+      "req_id": "3-177-c22fe7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677975
+    },
+    {
+      "worker_id": 1,
+      "iteration": 177,
+      "req_id": "1-177-9c31b7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677975
+    },
+    {
+      "worker_id": 2,
+      "iteration": 177,
+      "req_id": "2-177-4904ed",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677977
+    },
+    {
+      "worker_id": 0,
+      "iteration": 177,
+      "req_id": "0-177-7c9b1e",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677978
+    },
+    {
+      "worker_id": 3,
+      "iteration": 178,
+      "req_id": "3-178-a94180",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677981
+    },
+    {
+      "worker_id": 1,
+      "iteration": 178,
+      "req_id": "1-178-ff8ee8",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677981
+    },
+    {
+      "worker_id": 2,
+      "iteration": 178,
+      "req_id": "2-178-8e64de",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677983
+    },
+    {
+      "worker_id": 0,
+      "iteration": 178,
+      "req_id": "0-178-a5f851",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677983
+    },
+    {
+      "worker_id": 3,
+      "iteration": 179,
+      "req_id": "3-179-433d46",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677986
+    },
+    {
+      "worker_id": 1,
+      "iteration": 179,
+      "req_id": "1-179-f7cae6",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677986
+    },
+    {
+      "worker_id": 2,
+      "iteration": 179,
+      "req_id": "2-179-6993e1",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677988
+    },
+    {
+      "worker_id": 0,
+      "iteration": 179,
+      "req_id": "0-179-0e62be",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677989
+    },
+    {
+      "worker_id": 1,
+      "iteration": 180,
+      "req_id": "1-180-6b1a94",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677992
+    },
+    {
+      "worker_id": 3,
+      "iteration": 180,
+      "req_id": "3-180-d2c84c",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677992
+    },
+    {
+      "worker_id": 2,
+      "iteration": 180,
+      "req_id": "2-180-85569a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677993
+    },
+    {
+      "worker_id": 0,
+      "iteration": 180,
+      "req_id": "0-180-9999ed",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677994
+    },
+    {
+      "worker_id": 1,
+      "iteration": 181,
+      "req_id": "1-181-31be46",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677997
+    },
+    {
+      "worker_id": 3,
+      "iteration": 181,
+      "req_id": "3-181-d280c0",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677997
+    },
+    {
+      "worker_id": 2,
+      "iteration": 181,
+      "req_id": "2-181-519cd4",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915677999
+    },
+    {
+      "worker_id": 0,
+      "iteration": 181,
+      "req_id": "0-181-1d660a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915677999
+    },
+    {
+      "worker_id": 1,
+      "iteration": 182,
+      "req_id": "1-182-67d8ca",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678002
+    },
+    {
+      "worker_id": 3,
+      "iteration": 182,
+      "req_id": "3-182-ddbe17",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678003
+    },
+    {
+      "worker_id": 2,
+      "iteration": 182,
+      "req_id": "2-182-7db3a5",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678004
+    },
+    {
+      "worker_id": 0,
+      "iteration": 182,
+      "req_id": "0-182-051cda",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678005
+    },
+    {
+      "worker_id": 1,
+      "iteration": 183,
+      "req_id": "1-183-ad5c35",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678007
+    },
+    {
+      "worker_id": 3,
+      "iteration": 183,
+      "req_id": "3-183-6fba44",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678008
+    },
+    {
+      "worker_id": 0,
+      "iteration": 183,
+      "req_id": "0-183-d58fab",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678010
+    },
+    {
+      "worker_id": 2,
+      "iteration": 183,
+      "req_id": "2-183-229f0b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678010
+    },
+    {
+      "worker_id": 1,
+      "iteration": 184,
+      "req_id": "1-184-182cd9",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678013
+    },
+    {
+      "worker_id": 3,
+      "iteration": 184,
+      "req_id": "3-184-9db52c",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678014
+    },
+    {
+      "worker_id": 0,
+      "iteration": 184,
+      "req_id": "0-184-c0a079",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678016
+    },
+    {
+      "worker_id": 2,
+      "iteration": 184,
+      "req_id": "2-184-ea6cfd",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678016
+    },
+    {
+      "worker_id": 1,
+      "iteration": 185,
+      "req_id": "1-185-8465a8",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678018
+    },
+    {
+      "worker_id": 3,
+      "iteration": 185,
+      "req_id": "3-185-cf9fa0",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678020
+    },
+    {
+      "worker_id": 0,
+      "iteration": 185,
+      "req_id": "0-185-d95e3f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678021
+    },
+    {
+      "worker_id": 2,
+      "iteration": 185,
+      "req_id": "2-185-260817",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678021
+    },
+    {
+      "worker_id": 1,
+      "iteration": 186,
+      "req_id": "1-186-6e918d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678024
+    },
+    {
+      "worker_id": 3,
+      "iteration": 186,
+      "req_id": "3-186-3e86aa",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678025
+    },
+    {
+      "worker_id": 0,
+      "iteration": 186,
+      "req_id": "0-186-8cfb2d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678027
+    },
+    {
+      "worker_id": 2,
+      "iteration": 186,
+      "req_id": "2-186-a33c25",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678027
+    },
+    {
+      "worker_id": 1,
+      "iteration": 187,
+      "req_id": "1-187-f1ea9f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678029
+    },
+    {
+      "worker_id": 3,
+      "iteration": 187,
+      "req_id": "3-187-17f9b3",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678030
+    },
+    {
+      "worker_id": 0,
+      "iteration": 187,
+      "req_id": "0-187-d4f006",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678033
+    },
+    {
+      "worker_id": 2,
+      "iteration": 187,
+      "req_id": "2-187-77a169",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678033
+    },
+    {
+      "worker_id": 1,
+      "iteration": 188,
+      "req_id": "1-188-0b9b5e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678034
+    },
+    {
+      "worker_id": 3,
+      "iteration": 188,
+      "req_id": "3-188-696887",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678036
+    },
+    {
+      "worker_id": 0,
+      "iteration": 188,
+      "req_id": "0-188-1488c4",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678038
+    },
+    {
+      "worker_id": 2,
+      "iteration": 188,
+      "req_id": "2-188-d13351",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678038
+    },
+    {
+      "worker_id": 1,
+      "iteration": 189,
+      "req_id": "1-189-8deec5",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678039
+    },
+    {
+      "worker_id": 3,
+      "iteration": 189,
+      "req_id": "3-189-e91d20",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678041
+    },
+    {
+      "worker_id": 0,
+      "iteration": 189,
+      "req_id": "0-189-20c33a",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678044
+    },
+    {
+      "worker_id": 2,
+      "iteration": 189,
+      "req_id": "2-189-7e6097",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678044
+    },
+    {
+      "worker_id": 1,
+      "iteration": 190,
+      "req_id": "1-190-e0e2a5",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678045
+    },
+    {
+      "worker_id": 3,
+      "iteration": 190,
+      "req_id": "3-190-c4c3a7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678046
+    },
+    {
+      "worker_id": 0,
+      "iteration": 190,
+      "req_id": "0-190-cdae3d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678049
+    },
+    {
+      "worker_id": 2,
+      "iteration": 190,
+      "req_id": "2-190-5c3861",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678049
+    },
+    {
+      "worker_id": 1,
+      "iteration": 191,
+      "req_id": "1-191-630d9d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678050
+    },
+    {
+      "worker_id": 3,
+      "iteration": 191,
+      "req_id": "3-191-f62d72",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678051
+    },
+    {
+      "worker_id": 0,
+      "iteration": 191,
+      "req_id": "0-191-9ec41d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678055
+    },
+    {
+      "worker_id": 2,
+      "iteration": 191,
+      "req_id": "2-191-244d19",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678055
+    },
+    {
+      "worker_id": 1,
+      "iteration": 192,
+      "req_id": "1-192-31fbd0",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678056
+    },
+    {
+      "worker_id": 3,
+      "iteration": 192,
+      "req_id": "3-192-834d93",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678057
+    },
+    {
+      "worker_id": 0,
+      "iteration": 192,
+      "req_id": "0-192-089d81",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678060
+    },
+    {
+      "worker_id": 2,
+      "iteration": 192,
+      "req_id": "2-192-fcf688",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678060
+    },
+    {
+      "worker_id": 1,
+      "iteration": 193,
+      "req_id": "1-193-6d30b6",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678061
+    },
+    {
+      "worker_id": 3,
+      "iteration": 193,
+      "req_id": "3-193-58444f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678062
+    },
+    {
+      "worker_id": 0,
+      "iteration": 193,
+      "req_id": "0-193-bdf814",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678066
+    },
+    {
+      "worker_id": 2,
+      "iteration": 193,
+      "req_id": "2-193-197eb5",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678066
+    },
+    {
+      "worker_id": 1,
+      "iteration": 194,
+      "req_id": "1-194-081cc1",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678067
+    },
+    {
+      "worker_id": 3,
+      "iteration": 194,
+      "req_id": "3-194-d225c4",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678068
+    },
+    {
+      "worker_id": 0,
+      "iteration": 194,
+      "req_id": "0-194-610c9f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678071
+    },
+    {
+      "worker_id": 2,
+      "iteration": 194,
+      "req_id": "2-194-de591a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678071
+    },
+    {
+      "worker_id": 1,
+      "iteration": 195,
+      "req_id": "1-195-8d79c3",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678072
+    },
+    {
+      "worker_id": 3,
+      "iteration": 195,
+      "req_id": "3-195-657d6d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678073
+    },
+    {
+      "worker_id": 0,
+      "iteration": 195,
+      "req_id": "0-195-1a4b58",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678076
+    },
+    {
+      "worker_id": 2,
+      "iteration": 195,
+      "req_id": "2-195-3961e2",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678077
+    },
+    {
+      "worker_id": 1,
+      "iteration": 196,
+      "req_id": "1-196-a03d39",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678078
+    },
+    {
+      "worker_id": 3,
+      "iteration": 196,
+      "req_id": "3-196-fbd826",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678079
+    },
+    {
+      "worker_id": 0,
+      "iteration": 196,
+      "req_id": "0-196-72a1b0",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678081
+    },
+    {
+      "worker_id": 2,
+      "iteration": 196,
+      "req_id": "2-196-29eec5",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678082
+    },
+    {
+      "worker_id": 1,
+      "iteration": 197,
+      "req_id": "1-197-a3c45b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678083
+    },
+    {
+      "worker_id": 3,
+      "iteration": 197,
+      "req_id": "3-197-61176a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678084
+    },
+    {
+      "worker_id": 0,
+      "iteration": 197,
+      "req_id": "0-197-f59918",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678086
+    },
+    {
+      "worker_id": 2,
+      "iteration": 197,
+      "req_id": "2-197-f2aa78",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678088
+    },
+    {
+      "worker_id": 1,
+      "iteration": 198,
+      "req_id": "1-198-73a943",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678089
+    },
+    {
+      "worker_id": 3,
+      "iteration": 198,
+      "req_id": "3-198-9e7b81",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678090
+    },
+    {
+      "worker_id": 0,
+      "iteration": 198,
+      "req_id": "0-198-8ac0b8",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678092
+    },
+    {
+      "worker_id": 2,
+      "iteration": 198,
+      "req_id": "2-198-786170",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678093
+    },
+    {
+      "worker_id": 1,
+      "iteration": 199,
+      "req_id": "1-199-20f4d4",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678094
+    },
+    {
+      "worker_id": 3,
+      "iteration": 199,
+      "req_id": "3-199-4316e6",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678095
+    },
+    {
+      "worker_id": 0,
+      "iteration": 199,
+      "req_id": "0-199-1692b9",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678097
+    },
+    {
+      "worker_id": 2,
+      "iteration": 199,
+      "req_id": "2-199-510ff5",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678099
+    },
+    {
+      "worker_id": 1,
+      "iteration": 200,
+      "req_id": "1-200-4938a6",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678100
+    },
+    {
+      "worker_id": 3,
+      "iteration": 200,
+      "req_id": "3-200-aae737",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678101
+    },
+    {
+      "worker_id": 0,
+      "iteration": 200,
+      "req_id": "0-200-9feba0",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678103
+    },
+    {
+      "worker_id": 2,
+      "iteration": 200,
+      "req_id": "2-200-a4dc2c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678104
+    },
+    {
+      "worker_id": 3,
+      "iteration": 201,
+      "req_id": "3-201-01637c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678106
+    },
+    {
+      "worker_id": 1,
+      "iteration": 201,
+      "req_id": "1-201-adccee",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678106
+    },
+    {
+      "worker_id": 0,
+      "iteration": 201,
+      "req_id": "0-201-65f387",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678108
+    },
+    {
+      "worker_id": 2,
+      "iteration": 201,
+      "req_id": "2-201-df3be5",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678109
+    },
+    {
+      "worker_id": 3,
+      "iteration": 202,
+      "req_id": "3-202-b056ab",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678111
+    },
+    {
+      "worker_id": 1,
+      "iteration": 202,
+      "req_id": "1-202-fbd382",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678111
+    },
+    {
+      "worker_id": 0,
+      "iteration": 202,
+      "req_id": "0-202-a99b46",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678114
+    },
+    {
+      "worker_id": 2,
+      "iteration": 202,
+      "req_id": "2-202-91c8df",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678115
+    },
+    {
+      "worker_id": 3,
+      "iteration": 203,
+      "req_id": "3-203-15f85f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678117
+    },
+    {
+      "worker_id": 1,
+      "iteration": 203,
+      "req_id": "1-203-19ea8c",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678117
+    },
+    {
+      "worker_id": 0,
+      "iteration": 203,
+      "req_id": "0-203-33294c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678119
+    },
+    {
+      "worker_id": 2,
+      "iteration": 203,
+      "req_id": "2-203-084a0a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678120
+    },
+    {
+      "worker_id": 3,
+      "iteration": 204,
+      "req_id": "3-204-5fe6bb",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678122
+    },
+    {
+      "worker_id": 1,
+      "iteration": 204,
+      "req_id": "1-204-e3c828",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678122
+    },
+    {
+      "worker_id": 0,
+      "iteration": 204,
+      "req_id": "0-204-1196dd",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678124
+    },
+    {
+      "worker_id": 2,
+      "iteration": 204,
+      "req_id": "2-204-589b68",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678125
+    },
+    {
+      "worker_id": 3,
+      "iteration": 205,
+      "req_id": "3-205-0084fa",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678127
+    },
+    {
+      "worker_id": 1,
+      "iteration": 205,
+      "req_id": "1-205-4f43fd",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678127
+    },
+    {
+      "worker_id": 0,
+      "iteration": 205,
+      "req_id": "0-205-6f032d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678130
+    },
+    {
+      "worker_id": 2,
+      "iteration": 205,
+      "req_id": "2-205-22989b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678131
+    },
+    {
+      "worker_id": 1,
+      "iteration": 206,
+      "req_id": "1-206-70dec7",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678133
+    },
+    {
+      "worker_id": 3,
+      "iteration": 206,
+      "req_id": "3-206-2d54fe",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678133
+    },
+    {
+      "worker_id": 0,
+      "iteration": 206,
+      "req_id": "0-206-29db61",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678135
+    },
+    {
+      "worker_id": 2,
+      "iteration": 206,
+      "req_id": "2-206-088fae",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678136
+    },
+    {
+      "worker_id": 1,
+      "iteration": 207,
+      "req_id": "1-207-e350ac",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678138
+    },
+    {
+      "worker_id": 3,
+      "iteration": 207,
+      "req_id": "3-207-fe52ba",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678138
+    },
+    {
+      "worker_id": 0,
+      "iteration": 207,
+      "req_id": "0-207-8f7ca3",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678140
+    },
+    {
+      "worker_id": 2,
+      "iteration": 207,
+      "req_id": "2-207-5d8008",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678142
+    },
+    {
+      "worker_id": 3,
+      "iteration": 208,
+      "req_id": "3-208-78fbb3",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678144
+    },
+    {
+      "worker_id": 1,
+      "iteration": 208,
+      "req_id": "1-208-eebd77",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678144
+    },
+    {
+      "worker_id": 0,
+      "iteration": 208,
+      "req_id": "0-208-88c8a1",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678146
+    },
+    {
+      "worker_id": 2,
+      "iteration": 208,
+      "req_id": "2-208-cf5f0f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678147
+    },
+    {
+      "worker_id": 3,
+      "iteration": 209,
+      "req_id": "3-209-706936",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678149
+    },
+    {
+      "worker_id": 1,
+      "iteration": 209,
+      "req_id": "1-209-a02849",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678149
+    },
+    {
+      "worker_id": 0,
+      "iteration": 209,
+      "req_id": "0-209-e9723d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678151
+    },
+    {
+      "worker_id": 2,
+      "iteration": 209,
+      "req_id": "2-209-79db83",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678153
+    },
+    {
+      "worker_id": 3,
+      "iteration": 210,
+      "req_id": "3-210-071d59",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678154
+    },
+    {
+      "worker_id": 1,
+      "iteration": 210,
+      "req_id": "1-210-988900",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678154
+    },
+    {
+      "worker_id": 0,
+      "iteration": 210,
+      "req_id": "0-210-0d6c67",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678156
+    },
+    {
+      "worker_id": 2,
+      "iteration": 210,
+      "req_id": "2-210-a0601a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678158
+    },
+    {
+      "worker_id": 3,
+      "iteration": 211,
+      "req_id": "3-211-1b06e3",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678160
+    },
+    {
+      "worker_id": 1,
+      "iteration": 211,
+      "req_id": "1-211-e8c527",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678160
+    },
+    {
+      "worker_id": 0,
+      "iteration": 211,
+      "req_id": "0-211-d3691b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678162
+    },
+    {
+      "worker_id": 2,
+      "iteration": 211,
+      "req_id": "2-211-c9bb62",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678164
+    },
+    {
+      "worker_id": 1,
+      "iteration": 212,
+      "req_id": "1-212-e81f3e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678165
+    },
+    {
+      "worker_id": 3,
+      "iteration": 212,
+      "req_id": "3-212-c508b7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678165
+    },
+    {
+      "worker_id": 0,
+      "iteration": 212,
+      "req_id": "0-212-430930",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678167
+    },
+    {
+      "worker_id": 2,
+      "iteration": 212,
+      "req_id": "2-212-fe3e53",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678169
+    },
+    {
+      "worker_id": 3,
+      "iteration": 213,
+      "req_id": "3-213-87cab0",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678171
+    },
+    {
+      "worker_id": 1,
+      "iteration": 213,
+      "req_id": "1-213-87013f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678171
+    },
+    {
+      "worker_id": 0,
+      "iteration": 213,
+      "req_id": "0-213-1f24c0",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678173
+    },
+    {
+      "worker_id": 2,
+      "iteration": 213,
+      "req_id": "2-213-68cb9d",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678174
+    },
+    {
+      "worker_id": 3,
+      "iteration": 214,
+      "req_id": "3-214-0dc543",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678176
+    },
+    {
+      "worker_id": 1,
+      "iteration": 214,
+      "req_id": "1-214-237d1a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678176
+    },
+    {
+      "worker_id": 0,
+      "iteration": 214,
+      "req_id": "0-214-cc107a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678178
+    },
+    {
+      "worker_id": 2,
+      "iteration": 214,
+      "req_id": "2-214-493751",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678179
+    },
+    {
+      "worker_id": 3,
+      "iteration": 215,
+      "req_id": "3-215-ff5b07",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678181
+    },
+    {
+      "worker_id": 1,
+      "iteration": 215,
+      "req_id": "1-215-dd27f6",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678181
+    },
+    {
+      "worker_id": 0,
+      "iteration": 215,
+      "req_id": "0-215-19bc05",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678183
+    },
+    {
+      "worker_id": 2,
+      "iteration": 215,
+      "req_id": "2-215-555ace",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678184
+    },
+    {
+      "worker_id": 1,
+      "iteration": 216,
+      "req_id": "1-216-03630a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678186
+    },
+    {
+      "worker_id": 3,
+      "iteration": 216,
+      "req_id": "3-216-b37434",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678186
+    },
+    {
+      "worker_id": 0,
+      "iteration": 216,
+      "req_id": "0-216-e35e9a",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678189
+    },
+    {
+      "worker_id": 2,
+      "iteration": 216,
+      "req_id": "2-216-d689ec",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678189
+    },
+    {
+      "worker_id": 3,
+      "iteration": 217,
+      "req_id": "3-217-1bab82",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678192
+    },
+    {
+      "worker_id": 1,
+      "iteration": 217,
+      "req_id": "1-217-27846f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678192
+    },
+    {
+      "worker_id": 0,
+      "iteration": 217,
+      "req_id": "0-217-a020a6",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678195
+    },
+    {
+      "worker_id": 2,
+      "iteration": 217,
+      "req_id": "2-217-06da80",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678195
+    },
+    {
+      "worker_id": 1,
+      "iteration": 218,
+      "req_id": "1-218-1754e3",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678197
+    },
+    {
+      "worker_id": 3,
+      "iteration": 218,
+      "req_id": "3-218-7698a1",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678197
+    },
+    {
+      "worker_id": 2,
+      "iteration": 218,
+      "req_id": "2-218-254557",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678200
+    },
+    {
+      "worker_id": 0,
+      "iteration": 218,
+      "req_id": "0-218-2b1263",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678200
+    },
+    {
+      "worker_id": 3,
+      "iteration": 219,
+      "req_id": "3-219-dd84b3",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678202
+    },
+    {
+      "worker_id": 1,
+      "iteration": 219,
+      "req_id": "1-219-0af4b8",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678202
+    },
+    {
+      "worker_id": 2,
+      "iteration": 219,
+      "req_id": "2-219-ec47f4",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678205
+    },
+    {
+      "worker_id": 0,
+      "iteration": 219,
+      "req_id": "0-219-daf7fb",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678205
+    },
+    {
+      "worker_id": 1,
+      "iteration": 220,
+      "req_id": "1-220-c2dcd2",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678207
+    },
+    {
+      "worker_id": 3,
+      "iteration": 220,
+      "req_id": "3-220-c1cf15",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678207
+    },
+    {
+      "worker_id": 0,
+      "iteration": 220,
+      "req_id": "0-220-98abef",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678211
+    },
+    {
+      "worker_id": 2,
+      "iteration": 220,
+      "req_id": "2-220-4ee723",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678211
+    },
+    {
+      "worker_id": 3,
+      "iteration": 221,
+      "req_id": "3-221-0370ee",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678212
+    },
+    {
+      "worker_id": 1,
+      "iteration": 221,
+      "req_id": "1-221-e8a86f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678212
+    },
+    {
+      "worker_id": 2,
+      "iteration": 221,
+      "req_id": "2-221-b30aa7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678216
+    },
+    {
+      "worker_id": 0,
+      "iteration": 221,
+      "req_id": "0-221-44d3e3",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678216
+    },
+    {
+      "worker_id": 3,
+      "iteration": 222,
+      "req_id": "3-222-155648",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678218
+    },
+    {
+      "worker_id": 1,
+      "iteration": 222,
+      "req_id": "1-222-b7b039",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678218
+    },
+    {
+      "worker_id": 2,
+      "iteration": 222,
+      "req_id": "2-222-42f27c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678221
+    },
+    {
+      "worker_id": 0,
+      "iteration": 222,
+      "req_id": "0-222-d93fcb",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678221
+    },
+    {
+      "worker_id": 1,
+      "iteration": 223,
+      "req_id": "1-223-e2ae21",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678223
+    },
+    {
+      "worker_id": 3,
+      "iteration": 223,
+      "req_id": "3-223-05875b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678223
+    },
+    {
+      "worker_id": 0,
+      "iteration": 223,
+      "req_id": "0-223-a5f57b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678227
+    },
+    {
+      "worker_id": 2,
+      "iteration": 223,
+      "req_id": "2-223-e5d6e2",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678227
+    },
+    {
+      "worker_id": 3,
+      "iteration": 224,
+      "req_id": "3-224-c56e11",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678229
+    },
+    {
+      "worker_id": 1,
+      "iteration": 224,
+      "req_id": "1-224-7b44da",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678229
+    },
+    {
+      "worker_id": 2,
+      "iteration": 224,
+      "req_id": "2-224-56de8e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678232
+    },
+    {
+      "worker_id": 0,
+      "iteration": 224,
+      "req_id": "0-224-40eab7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678232
+    },
+    {
+      "worker_id": 3,
+      "iteration": 225,
+      "req_id": "3-225-d06a86",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678234
+    },
+    {
+      "worker_id": 1,
+      "iteration": 225,
+      "req_id": "1-225-a21b5c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678234
+    },
+    {
+      "worker_id": 2,
+      "iteration": 225,
+      "req_id": "2-225-aa4127",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678238
+    },
+    {
+      "worker_id": 0,
+      "iteration": 225,
+      "req_id": "0-225-951d72",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678238
+    },
+    {
+      "worker_id": 3,
+      "iteration": 226,
+      "req_id": "3-226-6b5e18",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678240
+    },
+    {
+      "worker_id": 1,
+      "iteration": 226,
+      "req_id": "1-226-6f6f33",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678240
+    },
+    {
+      "worker_id": 2,
+      "iteration": 226,
+      "req_id": "2-226-da69c0",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678243
+    },
+    {
+      "worker_id": 0,
+      "iteration": 226,
+      "req_id": "0-226-b8fdf6",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678244
+    },
+    {
+      "worker_id": 3,
+      "iteration": 227,
+      "req_id": "3-227-4acd32",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678245
+    },
+    {
+      "worker_id": 1,
+      "iteration": 227,
+      "req_id": "1-227-974eeb",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678245
+    },
+    {
+      "worker_id": 2,
+      "iteration": 227,
+      "req_id": "2-227-7c139c",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678249
+    },
+    {
+      "worker_id": 0,
+      "iteration": 227,
+      "req_id": "0-227-77f2d4",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678249
+    },
+    {
+      "worker_id": 1,
+      "iteration": 228,
+      "req_id": "1-228-6626d5",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678251
+    },
+    {
+      "worker_id": 3,
+      "iteration": 228,
+      "req_id": "3-228-47ad67",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678251
+    },
+    {
+      "worker_id": 2,
+      "iteration": 228,
+      "req_id": "2-228-ac0f31",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678254
+    },
+    {
+      "worker_id": 0,
+      "iteration": 228,
+      "req_id": "0-228-1f9c42",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678255
+    },
+    {
+      "worker_id": 3,
+      "iteration": 229,
+      "req_id": "3-229-556f45",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678256
+    },
+    {
+      "worker_id": 1,
+      "iteration": 229,
+      "req_id": "1-229-33b856",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678256
+    },
+    {
+      "worker_id": 2,
+      "iteration": 229,
+      "req_id": "2-229-e4c239",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678259
+    },
+    {
+      "worker_id": 0,
+      "iteration": 229,
+      "req_id": "0-229-57ebd6",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678260
+    },
+    {
+      "worker_id": 3,
+      "iteration": 230,
+      "req_id": "3-230-031c20",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678262
+    },
+    {
+      "worker_id": 1,
+      "iteration": 230,
+      "req_id": "1-230-03c93a",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678262
+    },
+    {
+      "worker_id": 2,
+      "iteration": 230,
+      "req_id": "2-230-648b5f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678265
+    },
+    {
+      "worker_id": 0,
+      "iteration": 230,
+      "req_id": "0-230-bb28a7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678265
+    },
+    {
+      "worker_id": 3,
+      "iteration": 231,
+      "req_id": "3-231-88e88a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678267
+    },
+    {
+      "worker_id": 1,
+      "iteration": 231,
+      "req_id": "1-231-ec67b8",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678267
+    },
+    {
+      "worker_id": 2,
+      "iteration": 231,
+      "req_id": "2-231-dc0487",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678270
+    },
+    {
+      "worker_id": 0,
+      "iteration": 231,
+      "req_id": "0-231-f941c1",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678271
+    },
+    {
+      "worker_id": 3,
+      "iteration": 232,
+      "req_id": "3-232-115b28",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678272
+    },
+    {
+      "worker_id": 1,
+      "iteration": 232,
+      "req_id": "1-232-bece62",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678273
+    },
+    {
+      "worker_id": 2,
+      "iteration": 232,
+      "req_id": "2-232-b5d941",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678275
+    },
+    {
+      "worker_id": 0,
+      "iteration": 232,
+      "req_id": "0-232-b5aa45",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678276
+    },
+    {
+      "worker_id": 3,
+      "iteration": 233,
+      "req_id": "3-233-a418f8",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678278
+    },
+    {
+      "worker_id": 1,
+      "iteration": 233,
+      "req_id": "1-233-6cd7f2",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678278
+    },
+    {
+      "worker_id": 2,
+      "iteration": 233,
+      "req_id": "2-233-ff9c9d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678281
+    },
+    {
+      "worker_id": 0,
+      "iteration": 233,
+      "req_id": "0-233-b851d4",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678281
+    },
+    {
+      "worker_id": 3,
+      "iteration": 234,
+      "req_id": "3-234-2c2e09",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678283
+    },
+    {
+      "worker_id": 1,
+      "iteration": 234,
+      "req_id": "1-234-69506d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678284
+    },
+    {
+      "worker_id": 2,
+      "iteration": 234,
+      "req_id": "2-234-c14d62",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678286
+    },
+    {
+      "worker_id": 0,
+      "iteration": 234,
+      "req_id": "0-234-d385b3",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678287
+    },
+    {
+      "worker_id": 3,
+      "iteration": 235,
+      "req_id": "3-235-ce58ec",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678289
+    },
+    {
+      "worker_id": 1,
+      "iteration": 235,
+      "req_id": "1-235-b0f810",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678289
+    },
+    {
+      "worker_id": 2,
+      "iteration": 235,
+      "req_id": "2-235-0cd240",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678291
+    },
+    {
+      "worker_id": 0,
+      "iteration": 235,
+      "req_id": "0-235-73ccb9",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678293
+    },
+    {
+      "worker_id": 3,
+      "iteration": 236,
+      "req_id": "3-236-99023a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678294
+    },
+    {
+      "worker_id": 1,
+      "iteration": 236,
+      "req_id": "1-236-f92b65",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678295
+    },
+    {
+      "worker_id": 2,
+      "iteration": 236,
+      "req_id": "2-236-9756fc",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678297
+    },
+    {
+      "worker_id": 0,
+      "iteration": 236,
+      "req_id": "0-236-21bb65",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678298
+    },
+    {
+      "worker_id": 3,
+      "iteration": 237,
+      "req_id": "3-237-64a77d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678300
+    },
+    {
+      "worker_id": 1,
+      "iteration": 237,
+      "req_id": "1-237-4bb9be",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678301
+    },
+    {
+      "worker_id": 2,
+      "iteration": 237,
+      "req_id": "2-237-64f49a",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678302
+    },
+    {
+      "worker_id": 0,
+      "iteration": 237,
+      "req_id": "0-237-9d9435",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678304
+    },
+    {
+      "worker_id": 3,
+      "iteration": 238,
+      "req_id": "3-238-e7280c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678305
+    },
+    {
+      "worker_id": 1,
+      "iteration": 238,
+      "req_id": "1-238-c54081",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678306
+    },
+    {
+      "worker_id": 2,
+      "iteration": 238,
+      "req_id": "2-238-8ff7b6",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678308
+    },
+    {
+      "worker_id": 0,
+      "iteration": 238,
+      "req_id": "0-238-295a65",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678309
+    },
+    {
+      "worker_id": 3,
+      "iteration": 239,
+      "req_id": "3-239-f906f0",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678311
+    },
+    {
+      "worker_id": 1,
+      "iteration": 239,
+      "req_id": "1-239-ed721e",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678311
+    },
+    {
+      "worker_id": 2,
+      "iteration": 239,
+      "req_id": "2-239-bd97d2",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678313
+    },
+    {
+      "worker_id": 0,
+      "iteration": 239,
+      "req_id": "0-239-9c7a5d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678315
+    },
+    {
+      "worker_id": 3,
+      "iteration": 240,
+      "req_id": "3-240-525fda",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678316
+    },
+    {
+      "worker_id": 1,
+      "iteration": 240,
+      "req_id": "1-240-47c13c",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678316
+    },
+    {
+      "worker_id": 2,
+      "iteration": 240,
+      "req_id": "2-240-6e7e68",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678319
+    },
+    {
+      "worker_id": 0,
+      "iteration": 240,
+      "req_id": "0-240-78ed47",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678321
+    },
+    {
+      "worker_id": 3,
+      "iteration": 241,
+      "req_id": "3-241-04b5e4",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678322
+    },
+    {
+      "worker_id": 1,
+      "iteration": 241,
+      "req_id": "1-241-c26a0b",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678322
+    },
+    {
+      "worker_id": 2,
+      "iteration": 241,
+      "req_id": "2-241-6dd8c2",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678324
+    },
+    {
+      "worker_id": 0,
+      "iteration": 241,
+      "req_id": "0-241-f1b5f7",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678326
+    },
+    {
+      "worker_id": 3,
+      "iteration": 242,
+      "req_id": "3-242-a4e9ae",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678327
+    },
+    {
+      "worker_id": 1,
+      "iteration": 242,
+      "req_id": "1-242-5d006b",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678327
+    },
+    {
+      "worker_id": 2,
+      "iteration": 242,
+      "req_id": "2-242-efc3e3",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678329
+    },
+    {
+      "worker_id": 0,
+      "iteration": 242,
+      "req_id": "0-242-cac040",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678331
+    },
+    {
+      "worker_id": 3,
+      "iteration": 243,
+      "req_id": "3-243-8a7a33",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678332
+    },
+    {
+      "worker_id": 1,
+      "iteration": 243,
+      "req_id": "1-243-b9b0e6",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678333
+    },
+    {
+      "worker_id": 2,
+      "iteration": 243,
+      "req_id": "2-243-201019",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678335
+    },
+    {
+      "worker_id": 0,
+      "iteration": 243,
+      "req_id": "0-243-033a43",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678337
+    },
+    {
+      "worker_id": 3,
+      "iteration": 244,
+      "req_id": "3-244-74941f",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678337
+    },
+    {
+      "worker_id": 1,
+      "iteration": 244,
+      "req_id": "1-244-13c1ca",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678338
+    },
+    {
+      "worker_id": 2,
+      "iteration": 244,
+      "req_id": "2-244-5349da",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678340
+    },
+    {
+      "worker_id": 0,
+      "iteration": 244,
+      "req_id": "0-244-6aaec5",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678342
+    },
+    {
+      "worker_id": 3,
+      "iteration": 245,
+      "req_id": "3-245-1b2900",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678342
+    },
+    {
+      "worker_id": 1,
+      "iteration": 245,
+      "req_id": "1-245-ecb7a5",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678344
+    },
+    {
+      "worker_id": 2,
+      "iteration": 245,
+      "req_id": "2-245-5bd6ba",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678345
+    },
+    {
+      "worker_id": 3,
+      "iteration": 246,
+      "req_id": "3-246-8e0e15",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678348
+    },
+    {
+      "worker_id": 0,
+      "iteration": 245,
+      "req_id": "0-245-f4bb6d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678348
+    },
+    {
+      "worker_id": 1,
+      "iteration": 246,
+      "req_id": "1-246-e8877f",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678350
+    },
+    {
+      "worker_id": 2,
+      "iteration": 246,
+      "req_id": "2-246-14b2f4",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678351
+    },
+    {
+      "worker_id": 0,
+      "iteration": 246,
+      "req_id": "0-246-a5a132",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678353
+    },
+    {
+      "worker_id": 3,
+      "iteration": 247,
+      "req_id": "3-247-377c14",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678353
+    },
+    {
+      "worker_id": 1,
+      "iteration": 247,
+      "req_id": "1-247-e5b553",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678355
+    },
+    {
+      "worker_id": 2,
+      "iteration": 247,
+      "req_id": "2-247-ea8948",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678356
+    },
+    {
+      "worker_id": 3,
+      "iteration": 248,
+      "req_id": "3-248-2e383d",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678359
+    },
+    {
+      "worker_id": 0,
+      "iteration": 247,
+      "req_id": "0-247-1a0c82",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678359
+    },
+    {
+      "worker_id": 1,
+      "iteration": 248,
+      "req_id": "1-248-8b9888",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678360
+    },
+    {
+      "worker_id": 2,
+      "iteration": 248,
+      "req_id": "2-248-450d45",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678361
+    },
+    {
+      "worker_id": 3,
+      "iteration": 249,
+      "req_id": "3-249-86c532",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678364
+    },
+    {
+      "worker_id": 0,
+      "iteration": 248,
+      "req_id": "0-248-2fb308",
+      "latency_ms": 5,
+      "timestamp_ms": 1757915678364
+    },
+    {
+      "worker_id": 1,
+      "iteration": 249,
+      "req_id": "1-249-20cd9c",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678366
+    },
+    {
+      "worker_id": 2,
+      "iteration": 249,
+      "req_id": "2-249-1f4aa2",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678367
+    },
+    {
+      "worker_id": 0,
+      "iteration": 249,
+      "req_id": "0-249-ca47a0",
+      "latency_ms": 6,
+      "timestamp_ms": 1757915678370
+    }
+  ]
+}
