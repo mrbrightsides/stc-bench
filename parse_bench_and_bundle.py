@@ -3,18 +3,23 @@ import csv
 import uuid
 from datetime import datetime
 from pathlib import Path
+import zipfile
 
-from make_bundle import create_bundle
+# Input JSON Caliper report (akan di-set dari Streamlit)
+INPUT_FILE = "outputs/run-latest.json"
 
-INPUT_FILE = None  # di-set dari app.py
+# Output filenames
 RUNS_CSV = Path("outputs/bench_runs.csv")
 TX_CSV = Path("outputs/bench_tx.csv")
+BUNDLE_ZIP = Path("outputs/bench_bundle.zip")
 
 def parse_caliper_report():
-    if not INPUT_FILE or not Path(INPUT_FILE).exists():
-        raise FileNotFoundError(f"Input file not found: {INPUT_FILE}")
+    """Parse Caliper JSON menjadi bench_runs.csv dan bench_tx.csv"""
+    path = Path(INPUT_FILE)
+    if not path.exists():
+        raise FileNotFoundError(f"❌ Input JSON tidak ditemukan: {path}")
 
-    with open(INPUT_FILE, "r") as f:
+    with open(path, "r") as f:
         data = json.load(f)
 
     run_id = str(uuid.uuid4())
@@ -58,22 +63,31 @@ def parse_caliper_report():
             "function_name": tx.get("function", "unknown")
         })
 
-    if tx_records:
-        with open(TX_CSV, "w", newline="") as f:
+    with open(TX_CSV, "w", newline="") as f:
+        if tx_records:
             writer = csv.DictWriter(f, fieldnames=tx_records[0].keys())
             writer.writeheader()
             writer.writerows(tx_records)
-    else:
-        with open(TX_CSV, "w", newline="") as f:
+        else:
             writer = csv.writer(f)
             writer.writerow(["run_id","tx_hash","submitted_at","mined_at","latency_ms","status","gas_used","gas_price_wei","block_number","function_name"])
 
-    print(f"✅ Parsed: {RUNS_CSV} & {TX_CSV}")
+    print(f"✅ Done! Hasil disimpan di {RUNS_CSV} dan {TX_CSV}")
+
 
 def bundle_if_ready():
-    if RUNS_CSV.exists() and TX_CSV.exists():
-        bundle = create_bundle(RUNS_CSV, TX_CSV, Path("outputs"))
-        print("📦 Bundle created:", bundle)
-        return bundle
-    else:
-        raise FileNotFoundError("⚠️ bench_runs.csv & bench_tx.csv belum ada, jalankan parse dulu.")
+    """Zip bench_runs.csv & bench_tx.csv menjadi satu bundle"""
+    if not RUNS_CSV.exists() or not TX_CSV.exists():
+        raise FileNotFoundError("⚠️ bench_runs.csv & bench_tx.csv belum ada, jalankan parse_caliper_report() dulu.")
+
+    with zipfile.ZipFile(BUNDLE_ZIP, "w") as zipf:
+        zipf.write(RUNS_CSV, RUNS_CSV.name)
+        zipf.write(TX_CSV, TX_CSV.name)
+
+    print(f"📦 Bundle dibuat: {BUNDLE_ZIP}")
+    return BUNDLE_ZIP
+
+
+if __name__ == "__main__":
+    parse_caliper_report()
+    bundle_if_ready()
