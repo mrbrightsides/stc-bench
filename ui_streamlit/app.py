@@ -28,35 +28,18 @@ SCENARIO_DIR = os.path.join(ROOT, "scenarios")
 OUTPUT_DIR = os.path.join(ROOT, "outputs")
 RUNNER_PATH = os.path.join(ROOT, "bench_core", "runner.py")
 
-import streamlit as st
-
-st.title("⚡ STC Bench")
-st.caption("The missing piece of SmartWisataChain Analytics")
-
-st.subheader("🔑 Setup Connection")
-st.write("Masukkan RPC URL dan Private Key Anda di sini (jangan khawatir, data tidak disimpan).")
-
-# input key, rpc, dll...
-
-st.subheader("📜 Contract & Scenario")
-st.write("Masukkan Contract Address, ABI, dan pilih file skenario benchmark (YAML).")
-
-# input contract address, abi, scenario...
-
-st.subheader("▶️ Run Benchmark")
-st.write("Jalankan skenario dan hasil akan tersimpan otomatis di folder `outputs/`.")
-
-# tombol run...
-
-st.subheader("📂 Output & Export")
-st.write("Benchmark menghasilkan file JSON yang dapat ditranslate ke CSV/NDJSON untuk digunakan di STC Analytics.")
-
-# output path, link ke csv...
-
+# === Logo dan Header ===
+LOGO_URL = "https://i.imgur.com/7j5aq4l.png"
+col1, col2 = st.columns([1, 4])
+with col1:
+    st.image(LOGO_URL, width=60)
+with col2:
+    st.markdown("## STC Bench")
 
 st.set_page_config(page_title="STC Bench", layout="wide")
+st.title("⚡ STC Benchmarking")
 
-st.markdown("Klik run → CSV auto jadi → siap kirim ke STC Analytics")
+st.markdown("Benchmark. Export. Connect to STC Analytics.")
 
 with st.sidebar:
     st.subheader("RPC & Wallets (optional)")
