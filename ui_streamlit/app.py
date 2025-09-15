@@ -1,16 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title="STC Benchmarking", layout="wide")
-
-st.markdown("""
-<style>
-    header, footer {visibility: hidden;}
-    body, html, .block-container {margin:0; padding:0; height:100%; width:100%;}
-    iframe {border:none;}
-</style>
-""", unsafe_allow_html=True)
-
 with st.sidebar:
     st.sidebar.markdown("📘 **About**")
     st.sidebar.markdown("""
@@ -49,6 +39,16 @@ with st.sidebar:
 
     Versi UI: v1.0 • Streamlit • Theme Dark
     """)
+
+st.set_page_config(page_title="STC Benchmarking", layout="wide")
+
+st.markdown("""
+<style>
+    header, footer {visibility: hidden;}
+    body, html, .block-container {margin:0; padding:0; height:100%; width:100%;}
+    iframe {border:none;}
+</style>
+""", unsafe_allow_html=True)
 
 def embed_iframe_top_crop(url: str, hide_top_px: int = 72):
     """
