@@ -6,38 +6,26 @@ import statistics
 
 class ResultsCollector:
     def __init__(self):
+        self.meta = {}
+        self.transactions = []
         self.rows = []
-        self.lock = Lock()
 
-    def record(self, row: dict):
-        with self.lock:
-            self.rows.append(row)
+    def add_transaction(self, tx):
+        self.transactions.append(tx)
+        # contoh update rows juga
+        self.rows.append(tx)
 
-    def stats(self):
-        lat = [r["latency_ms"] for r in self.rows if "latency_ms" in r]
-        if not lat:
-            return {}
-        lat_sorted = sorted(lat)
-        n = len(lat_sorted)
-        def pct(p):
-            idx = min(n-1, max(0, int(p * n) - 1))
-            return lat_sorted[idx]
+    def set_meta(self, meta):
+        self.meta = meta
+
+    def to_dict(self):
+        """Return results as dict (for JSON output / Streamlit)"""
         return {
-            "count": n,
-            "min_ms": lat_sorted[0],
-            "max_ms": lat_sorted[-1],
-            "mean_ms": statistics.mean(lat_sorted),
-            "p50_ms": pct(0.5),
-            "p95_ms": pct(0.95)
-        }
-
-    def save_json(self, path):
-        out = {
-            "meta": {
-                "generated_at": int(time.time()*1000),
-                "summary": self.stats()
-            },
+            "meta": self.meta,
+            "transactions": self.transactions,
             "rows": self.rows
         }
-        with open(path, "w", encoding="utf-8") as f:
-            json.dump(out, f, indent=2)
+
+    def save_json(self, filepath):
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(self.to_dict(), f, indent=2)
