@@ -34,15 +34,16 @@ def run_scenario(scenario_path, outdir=None, save_file=True):
         print(json.dumps({"error": str(e)}))
         return
 
-    # optional save ke file
     results_data = collector.to_dict()  # ambil dict sebelum save
+
+    # optional save ke file
     if save_file and outdir:
         os.makedirs(outdir, exist_ok=True)
         results_file = os.path.join(outdir, f"run-{start_ts}.json")
         collector.save_json(results_file)
         print(f"Saved results -> {results_file}")
 
-    # print JSON ke stdout supaya Streamlit bisa baca
+    # print JSON ke stdout supaya Streamlit bisa capture
     print(json.dumps(results_data))
 
     return results_data
@@ -50,5 +51,4 @@ def run_scenario(scenario_path, outdir=None, save_file=True):
 if __name__ == "__main__":
     import sys
     scenario_file = sys.argv[1] if len(sys.argv) > 1 else "scenarios/example_scenario.yaml"
-    # default outdir = "outputs" biar kompatibel
     run_scenario(scenario_file, outdir="outputs", save_file=True)
