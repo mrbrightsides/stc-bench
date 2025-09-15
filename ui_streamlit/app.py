@@ -27,7 +27,7 @@ def embed_iframe(url: str, hide_top: int = 0, hide_bottom: int = 0):
                 style="position:absolute; top:{top_offset}; left:0; width:100%; height:{total_height}; border:none;">
         </iframe>
     </div>
-    """, height=st.query_params().get("height", [800])[0])
+    """, height=st.experimental_get_query_params().get("height", [800])[0])
 
 # Panggil iframe
 iframe_url = "https://ohara.ai/mini-apps/a11f2bf3-af2b-4763-aeb8-53999129c2e5"
