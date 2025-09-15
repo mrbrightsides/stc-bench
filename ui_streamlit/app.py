@@ -28,6 +28,8 @@ SCENARIO_DIR = os.path.join(ROOT, "scenarios")
 OUTPUT_DIR = os.path.join(ROOT, "outputs")
 RUNNER_PATH = os.path.join(ROOT, "bench_core", "runner.py")
 
+
+
 # Quick CSS theme (dark + teal accents)
 st.markdown("""
 <style>
@@ -165,6 +167,25 @@ if files:
                 st.download_button("Download CSV", data=f, file_name=Path(csv_path).name)
             with open(ndjson_path, "rb") as f:
                 st.download_button("Download NDJSON", data=f, file_name=Path(ndjson_path).name)
+
+            # === Bundle ZIP untuk Analytics ===
+            import zipfile, io
+            runs_file = Path(OUTPUT_DIR) / "bench_runs.csv"
+            tx_file = Path(OUTPUT_DIR) / "bench_tx.csv"
+            if runs_file.exists() and tx_file.exists():
+                buf = io.BytesIO()
+                with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as z:
+                    z.write(runs_file, arcname=runs_file.name)
+                    z.write(tx_file, arcname=tx_file.name)
+                buf.seek(0)
+                st.download_button(
+                    "📦 Download bundle ZIP (runs+tx)",
+                    data=buf,
+                    file_name="bench_bundle.zip",
+                    mime="application/zip"
+                )
+            else:
+                st.info("⚠️ bench_runs.csv & bench_tx.csv belum ada, jalankan parse dulu.")
         except Exception as e:
             st.error(f"Export failed: {e}")
 else:
