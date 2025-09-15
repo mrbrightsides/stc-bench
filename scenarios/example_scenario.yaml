@@ -1,6 +1,11 @@
-name: "synthetic-local"
-description: "Synthetic benchmark for local testing"
-workers: 4
-iterations_per_worker: 250
-think_time_seconds: 0.005
-notes: "Replace synthetic_worker with web3_worker to run real txs"
+name: "real-transfer-sepolia"
+description: "Benchmark real Ethereum transactions on Sepolia testnet"
+network: "Sepolia"
+workers: 2
+iterations_per_worker: 3
+think_time_seconds: 0.01
+actions:
+  - type: "transfer"
+    from: "<YOUR_WALLET_ADDRESS>"
+    to: "<RECIPIENT_ADDRESS>"
+    value_eth: 0.001
