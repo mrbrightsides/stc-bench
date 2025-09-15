@@ -57,40 +57,28 @@ with st.sidebar:
     STC Bench adalah modul benchmarking ringan untuk smart contract di jaringan Ethereum (testnet/mainnet).
     Tujuannya: mengeksekusi skenario uji, mencatat detail transaksi, lalu men-translate hasilnya ke format standar (CSV/NDJSON) yang siap divisualisasikan di STC Analytics.
    
-    #🔑 Setup Connection
+    # 🔑 Setup Connection
     Masukkan RPC URL dan Private Key Anda di sini (jangan khawatir, data tidak disimpan)
        
-    #📜 Contract & Scenario
+    # 📜 Contract & Scenario
     Masukkan Contract Address, ABI, dan pilih file skenario benchmark (YAML)
     
-    #▶️ Run Benchmark
+    # ▶️ Run Benchmark
     Jalankan skenario dan hasil akan tersimpan otomatis di folder `outputs/`
        
-    #📂 Output & Export
+    # 📂 Output & Export
     Benchmark menghasilkan file JSON yang dapat ditranslate ke CSV/NDJSON untuk digunakan di STC Analytics
     
-    ---
-    #### 🔮 Vision Statement
-    RANTAI Nexus hadir sebagai ruang kolaboraksi yang menjembatani nilai iman, eksplorasi wisata, semangat akademik, dan inovasi Web3—menciptakan ekosistem belajar, bermain, dan berkreasi yang santai, inklusif, dan terhubung lewat teknologi blockchain.
-
-    ---
-    ### ❓ How to Log in
-    Pastikan sudah memiliki wallet. Tiap modul merupakan app standalone jadi harus login di tiap modulnya untuk merasakan pengalaman maksimal dalam menjelajahi dunia Web3.
-    
-    ---
-    ### 🎯 Leaderboard
-    Beberapa modul disertai leaderboard yang berbeda-beda fungsi dan tujuannya. Tingkatkan peringkat dan bersaing dengan pengguna lain untuk menjadi yang terbaik.
-
     ---
     ### 🧩 RANTAI Ecosystem
     1. [STC Analytics](https://stc-analytics.streamlit.app/)
     2. [STC GasVision](https://stc-gasvision.streamlit.app/)
     3. [STC Converter](https://stc-converter.streamlit.app/)
-    4. [STC Bench](https://stc-bench.streamlit.app/)
-    5. [STC Insight](https://stc-insight.streamlit.app/)
-    6. [STC Plugin](https://smartourism.elpeef.com/)
-    7. [SmartFaith](https://smartfaith.streamlit.app/)
-    8. [Learn3](https://learn3.streamlit.app/)
+    4. [STC Insight](https://stc-insight.streamlit.app/)
+    5. [STC Plugin](https://smartourism.elpeef.com/)
+    6. [SmartFaith](https://smartfaith.streamlit.app/)
+    7. [Learn3](https://learn3.streamlit.app/)
+    8. [Nexus](https://rantai-nexus.streamlit.app/)
 
     ---
     #### 🙌 Dukungan & kontributor
