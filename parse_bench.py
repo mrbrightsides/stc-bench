@@ -3,20 +3,18 @@ import csv
 import uuid
 from datetime import datetime
 from pathlib import Path
+import os
 
-# Import bundler
 from make_bundle import create_bundle
 
-# Ganti nama file hasil Caliper JSON kamu di sini
 INPUT_FILE = "outputs/run-2025-09-15_12-54-37.json"
 RUNS_CSV = Path("outputs/bench_runs.csv")
 TX_CSV = Path("outputs/bench_tx.csv")
 
-def parse_and_bundle():
+def parse_caliper_report():
     with open(INPUT_FILE, "r") as f:
         data = json.load(f)
 
-    # generate run_id unik
     run_id = str(uuid.uuid4())
 
     # --- bench_runs.csv ---
@@ -36,6 +34,7 @@ def parse_and_bundle():
         "success_rate": data.get("metrics", {}).get("successRate", 0),
     }
 
+    RUNS_CSV.parent.mkdir(parents=True, exist_ok=True)
     with open(RUNS_CSV, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=run_info.keys())
         writer.writeheader()
@@ -69,9 +68,13 @@ def parse_and_bundle():
 
     print(f"✅ Parsed: {RUNS_CSV} & {TX_CSV}")
 
-    # --- bundle otomatis ---
-    bundle = create_bundle(RUNS_CSV, TX_CSV, Path("outputs"))
-    print("📦 Bundle created:", bundle)
+def bundle_if_ready():
+    if RUNS_CSV.exists() and TX_CSV.exists():
+        bundle = create_bundle(RUNS_CSV, TX_CSV, Path("outputs"))
+        print("📦 Bundle created:", bundle)
+    else:
+        print("⚠️ bench_runs.csv & bench_tx.csv belum ada, jalankan parse dulu.")
 
 if __name__ == "__main__":
-    parse_and_bundle()
+    parse_caliper_report()
+    bundle_if_ready()
