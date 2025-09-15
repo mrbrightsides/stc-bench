@@ -149,29 +149,78 @@ st.header("Latest outputs")
 files = sorted(glob.glob(os.path.join(OUTPUT_DIR, "run-*.json")), reverse=True)
 
 if files:
-    chosen = st.selectbox("Select output", files)
+    chosen = st.selectbox("Select output (JSON)", files)
 
-    colA, colB = st.columns(2)
+    # show basic file info
+    st.write("Selected:", chosen)
+
+    colA, colB = st.columns([2,1])
     with colA:
-        if st.button("📑 Load Output"):
-            with open(chosen, "r", encoding="utf-8") as f:
-                data = json.load(f)
-            st.write("Summary", data.get("meta", {}))
-            df = pd.DataFrame(data.get("rows", []))
-            st.dataframe(df.head(200))
+        if st.button("📑 Load & Preview JSON"):
+            try:
+                with open(chosen, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                st.write("Summary", data.get("meta", {}))
+                df = pd.DataFrame(data.get("rows", []))
+                st.dataframe(df.head(200))
+                # keep raw_data in session for later downloads
+                st.session_state["last_loaded_json"] = data
+                st.session_state["last_loaded_json_path"] = chosen
+            except Exception as e:
+                st.error(f"Failed to load JSON: {e}")
+
+        # Raw JSON download (if loaded)
+        if "last_loaded_json_path" in st.session_state and Path(st.session_state["last_loaded_json_path"]).exists():
+            with open(st.session_state["last_loaded_json_path"], "rb") as f:
+                st.download_button("⬇️ Download raw JSON", data=f, file_name=Path(st.session_state["last_loaded_json_path"]).name, mime="application/json")
 
     with colB:
-        if st.button("⚡ Parse & Bundle"):
+        # Parse -> CSV & NDJSON exporter (uses bench_core.exporter)
+        if st.button("🔁 Export JSON → CSV / NDJSON"):
             try:
-                from parse_bench import parse_caliper_report, bundle_if_ready
-                # set input file dulu
-                import parse_bench
-                parse_bench.INPUT_FILE = chosen
-                parse_caliper_report()
-                bundle_if_ready()
-                st.success("✅ Parsed & Bundled! Cek folder outputs/")
+                from bench_core.exporter import json_to_csv_ndjson
+                csv_path, ndjson_path = json_to_csv_ndjson(chosen)
+                st.success("Converted JSON -> CSV / NDJSON")
+                # store last export paths
+                st.session_state["last_csv"] = csv_path
+                st.session_state["last_ndjson"] = ndjson_path
+            except Exception as e:
+                st.error(f"Export failed: {e}")
+
+        # show download buttons if exporter produced files
+        if st.session_state.get("last_csv") and Path(st.session_state["last_csv"]).exists():
+            with open(st.session_state["last_csv"], "rb") as f:
+                st.download_button("⬇️ Download CSV (runs)", data=f, file_name=Path(st.session_state["last_csv"]).name)
+        if st.session_state.get("last_ndjson") and Path(st.session_state["last_ndjson"]).exists():
+            with open(st.session_state["last_ndjson"], "rb") as f:
+                st.download_button("⬇️ Download NDJSON", data=f, file_name=Path(st.session_state["last_ndjson"]).name)
+
+    st.write("---")
+
+    # Parse & Bundle (one-click generate bench_runs.csv, bench_tx.csv, then zip)
+    c1, c2 = st.columns([1,2])
+    with c1:
+        if st.button("⚡ Parse & Bundle (for Analytics)"):
+            try:
+                # dynamic import so app still works if module missing
+                import parse_bench_and_bundle as pbb
+                # set selected JSON as input
+                pbb.INPUT_FILE = chosen
+                pbb.parse_caliper_report()
+                bundle_path = pbb.bundle_if_ready()
+                st.success("✅ Parsed & bundled for Analytics")
+                # store path
+                st.session_state["last_bundle"] = str(bundle_path)
             except Exception as e:
                 st.error(f"Parse+Bundle failed: {e}")
+
+    with c2:
+        # Download bundle if exists
+        if st.session_state.get("last_bundle") and Path(st.session_state["last_bundle"]).exists():
+            with open(st.session_state["last_bundle"], "rb") as f:
+                st.download_button("📦 Download bundle ZIP (runs+tx)", data=f, file_name=Path(st.session_state["last_bundle"]).name, mime="application/zip")
+        else:
+            st.info("Bundle will appear here after you run Parse & Bundle.")
 
 else:
     st.info("No outputs yet. Run a scenario first.")
