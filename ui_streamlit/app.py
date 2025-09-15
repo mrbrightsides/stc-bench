@@ -39,7 +39,7 @@ with col2:
 st.set_page_config(page_title="STC Bench", layout="wide")
 st.title("⚡ STC Benchmarking")
 
-st.markdown("Benchmark. Export. Connect to STC Analytics.")
+st.markdown("Benchmark. Export. Connect to STC Analytics. Dari transaksi mentah menjadi data siap analisis, menerjemahkan performa smart contract Anda menjadi wawasan bermakna.")
 
 with st.sidebar:
     st.subheader("RPC & Wallets (optional)")
