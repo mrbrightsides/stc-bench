@@ -52,26 +52,30 @@ div[data-testid="stMetric"]{
 """, unsafe_allow_html=True)
 
 with st.sidebar:
-    st.sidebar.image(
-        "https://i.imgur.com/n1m1LJf.png",
-        use_container_width=True
-    )
     st.sidebar.markdown("📘 **About**")
     st.sidebar.markdown("""
-    RANTAI Nexus adalah ruang bermain sekaligus ruang belajar, di mana fun bertemu focus, iman bertemu inovasi, wisata bertemu Web3, dan akademik bertemu eksperimen; semua terhubung lewat rantai ide dan kode, serta kolaborasi dan aksi.
+    STC Bench adalah modul benchmarking ringan untuk smart contract di jaringan Ethereum (testnet/mainnet).
+    Tujuannya: mengeksekusi skenario uji, mencatat detail transaksi, lalu men-translate hasilnya ke format standar (CSV/NDJSON) yang siap divisualisasikan di STC Analytics.
    
-    Pilih modul DApp dari navbar:
-    1. Chat AI: Belajar dunia Web3 secara fun dan santai dengan AI multitalent.
-    2. Learn to Earn: Eksperimen musik bareng AI, lalu klaim hadiah lewat Web3.
-    3. Retro Games: Mainkan 12 game klasik 8-bit dan koneksikan skor dengan pemain lain via Web3.
-    4. DID Prototype: Prototype identitas digital terdesentralisasi, cikal bakal KTP masa depan.
-    5. Ferix Lab: Gambar mobil, adu kreasi, dan bandingkan karya lewat Web3.
-    6. Social Media: Berinteraksi dan bangun jejaring sosial dengan dukungan Web3.
-    7. Halal Chain: Analisis rantai pasok restoran untuk menilai status halal dengan Web3.
-    8. Travel Tycoon: Jadi pengusaha pariwisata dalam game simulasi berbasis Web3.
-    9. Cultural DAO: Dukung dan voting budaya Indonesia melalui DAO.
-    10. Zakat Manager: Kelola zakat lebih aman, transparan, dan nyaman menggunakan Web3.
-    11. NFT Marketplace: Koleksi souvenir digital berupa NFT dari destinasi wisata Indonesia.
+    st.subheader("🔑 Setup Connection")
+    st.write("Masukkan RPC URL dan Private Key Anda di sini (jangan khawatir, data tidak disimpan).")
+    
+    # input key, rpc, dll...
+    
+    st.subheader("📜 Contract & Scenario")
+    st.write("Masukkan Contract Address, ABI, dan pilih file skenario benchmark (YAML).")
+    
+    # input contract address, abi, scenario...
+    
+    st.subheader("▶️ Run Benchmark")
+    st.write("Jalankan skenario dan hasil akan tersimpan otomatis di folder `outputs/`.")
+    
+    # tombol run...
+    
+    st.subheader("📂 Output & Export")
+    st.write("Benchmark menghasilkan file JSON yang dapat ditranslate ke CSV/NDJSON untuk digunakan di STC Analytics.")
+
+    # output path, link ke csv...
     
     ---
     #### 🔮 Vision Statement
