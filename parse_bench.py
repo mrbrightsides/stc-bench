@@ -2,13 +2,17 @@ import json
 import csv
 import uuid
 from datetime import datetime
+from pathlib import Path
+
+# Import bundler
+from make_bundle import create_bundle
 
 # Ganti nama file hasil Caliper JSON kamu di sini
 INPUT_FILE = "outputs/run-2025-09-15_12-54-37.json"
-RUNS_CSV = "bench_runs.csv"
-TX_CSV = "bench_tx.csv"
+RUNS_CSV = Path("outputs/bench_runs.csv")
+TX_CSV = Path("outputs/bench_tx.csv")
 
-def parse_caliper_report():
+def parse_and_bundle():
     with open(INPUT_FILE, "r") as f:
         data = json.load(f)
 
@@ -63,8 +67,11 @@ def parse_caliper_report():
             writer = csv.writer(f)
             writer.writerow(["run_id","tx_hash","submitted_at","mined_at","latency_ms","status","gas_used","gas_price_wei","block_number","function_name"])
 
+    print(f"✅ Parsed: {RUNS_CSV} & {TX_CSV}")
 
-    print(f"✅ Done! Hasil disimpan di {RUNS_CSV} dan {TX_CSV}")
+    # --- bundle otomatis ---
+    bundle = create_bundle(RUNS_CSV, TX_CSV, Path("outputs"))
+    print("📦 Bundle created:", bundle)
 
 if __name__ == "__main__":
-    parse_caliper_report()
+    parse_and_bundle()
