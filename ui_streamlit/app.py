@@ -163,10 +163,10 @@ if files:
     with colB:
         if st.button("⚡ Parse & Bundle"):
             try:
-                from parse_bench_and_bundle import parse_caliper_report, bundle_if_ready
+                from parse_bench import parse_caliper_report, bundle_if_ready
                 # set input file dulu
-                import parse_bench_and_bundle
-                parse_bench_and_bundle.INPUT_FILE = chosen
+                import parse_bench
+                parse_bench.INPUT_FILE = chosen
                 parse_caliper_report()
                 bundle_if_ready()
                 st.success("✅ Parsed & Bundled! Cek folder outputs/")
