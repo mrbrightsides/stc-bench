@@ -1,4 +1,6 @@
 # ui_streamlit/app.py
+import time
+from parse_bench_and_bundle import parse_caliper_report, bundle_if_ready
 import streamlit as st
 import subprocess
 import json
@@ -10,8 +12,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-
-from parse_bench_and_bundle import parse_caliper_report, bundle_if_ready
 
 from eth_utils import is_address, to_checksum_address
 import json
@@ -134,7 +134,7 @@ if run_btn:
     # save temporary scenario
     os.makedirs(SCENARIO_DIR, exist_ok=True)
     temp_path = os.path.join(SCENARIO_DIR, "ui_temp_scenario.yaml")
-    # try to accept JSON or YAML-ish string; for now write as YAML
+
     try:
         import yaml
         parsed = yaml.safe_load(scenario_text)
@@ -144,10 +144,50 @@ if run_btn:
         with open(temp_path, "w", encoding="utf-8") as f:
             f.write(scenario_text)
 
-    # run runner as subprocess so Streamlit UI doesn't block
+    # run runner as subprocess
     cmd = ["python", RUNNER_PATH, temp_path]
     proc = subprocess.Popen(cmd)
-    st.success(f"Runner started (pid={proc.pid}) — check outputs/ when done")
+    st.info("⏳ Benchmark running... please wait")
+
+    # polling tunggu output terbaru muncul
+    latest_before = set(glob.glob(os.path.join(OUTPUT_DIR, "run-*.json")))
+    new_file = None
+    for _ in range(60):  # max tunggu 60 detik
+        time.sleep(2)
+        current = set(glob.glob(os.path.join(OUTPUT_DIR, "run-*.json")))
+        new_files = current - latest_before
+        if new_files:
+            new_file = sorted(list(new_files))[-1]
+            break
+
+    if new_file:
+        st.success(f"✅ Benchmark finished: {os.path.basename(new_file)}")
+
+        # parse jadi runs & tx
+        try:
+            runs_csv, tx_csv = parse_caliper_report(new_file)
+            bundle = bundle_if_ready(runs_csv, tx_csv, OUTPUT_DIR)
+
+            # tampilkan summary
+            with open(new_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            st.write("### Summary", data.get("meta", {}))
+            df = pd.DataFrame(data.get("transactions", []))
+            st.dataframe(df.head(100))
+
+            # tombol download
+            with open(runs_csv, "rb") as f:
+                st.download_button("⬇️ Download bench_runs.csv", f, file_name=os.path.basename(runs_csv))
+            with open(tx_csv, "rb") as f:
+                st.download_button("⬇️ Download bench_tx.csv", f, file_name=os.path.basename(tx_csv))
+            if bundle:
+                with open(bundle, "rb") as f:
+                    st.download_button("⬇️ Download bundle.ndjson", f, file_name=os.path.basename(bundle))
+
+        except Exception as e:
+            st.error(f"Parse+Export failed: {e}")
+    else:
+        st.error("❌ Benchmark did not finish in time or no output found.")
 
 st.write("---")
 st.header("Latest outputs")
