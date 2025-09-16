@@ -40,7 +40,7 @@ with st.sidebar:
 
     ---
     #### 🙌 Dukungan & kontributor
-    - ⭐ **Star / Fork**: [GitHub repo](https://github.com/mrbrightsides/rantai-nexus)
+    - ⭐ **Star / Fork**: [GitHub repo](https://github.com/mrbrightsides/stc-bench)
     - Built with 💙 by [Khudri](https://s.id/khudri)
     - Dukung pengembangan proyek ini melalui: 
       [💖 GitHub Sponsors](https://github.com/sponsors/mrbrightsides) • 
