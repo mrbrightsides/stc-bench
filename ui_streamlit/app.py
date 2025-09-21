@@ -42,14 +42,21 @@ with st.sidebar:
     ---
     ### ☂ RANTAI Communities
     1. [Learn3](https://learn3.streamlit.app/)
-    2. [BlockPedia](https://blockpedia.streamlit.app/)
-    3. [Diva](https://rantai-diva.streamlit.app/)
-    4. [Nexus](https://rantai-nexus.streamlit.app/)
+    2. [Nexus](https://rantai-nexus.streamlit.app/)
+    3. [BlockPedia](https://blockpedia.streamlit.app/)
+    4. [Data Insights & Visualization Assistant](https://rantai-diva.streamlit.app/)
     5. [Exploratory Data Analysis](https://rantai-exploda.streamlit.app/)
     6. [Business Intelligence](https://rantai-busi.streamlit.app/)
     7. [Predictive Modelling](https://rantai-model-predi.streamlit.app/)
     8. [Ethic & Bias Checker](https://rantai-ethika.streamlit.app/)
-
+    9. [Decentralized Supply Chain](https://rantai-trace.streamlit.app/)
+    10. [ESG Compliance Manager](https://rantai-sentinel.streamlit.app/)
+    11. [Decentralized Storage Optimizer](https://rantai-greenstorage.streamlit.app/)
+    12. [Cloud Carbon Footprint Tracker](https://rantai-greencloud.streamlit.app/)
+    13. [Cloud.Climate.Chain](https://rantai-3c.streamlit.app/)
+    14. [Smart Atlas For Environment](https://rantai-safe.streamlit.app/)
+    15. [Real-time Social Sentiment](https://rantai-rss.streamlit.app/)
+    
     ---
     #### 🙌 Dukungan & kontributor
     - ⭐ **Star / Fork**: [GitHub repo](https://github.com/mrbrightsides/stc-bench)
@@ -63,17 +70,17 @@ with st.sidebar:
     Versi UI: v1.0 • Streamlit • Theme Dark
     """)
 
-def embed_iframe(src, hide_top_px=72, height=800):
+def embed_iframe(src, hide_top_px=100, hide_bottom_px=0, height=800):
     components.html(f"""
     <div style="height:{height}px; overflow:hidden; position:relative;">
         <iframe src="{src}" 
-                style="width:100%; height:{height + hide_top_px}px; border:none; position:relative; top:-{hide_top_px}px;">
+                style="width:100%; height:calc(100% + {hide_top_px + hide_bottom_px}px); border:none; position:relative; top:-{hide_top_px}px;">
         </iframe>
     </div>
-    """, height=height)
+    """, height=height + hide_top_px + hide_bottom_px)
 
 # URL Ohara
 iframe_url = "https://ohara.ai/mini-apps/a11f2bf3-af2b-4763-aeb8-53999129c2e5"
 
 # Panggil fungsi
-embed_iframe(iframe_url, hide_top_px=120, height=800)
+embed_iframe(iframe_url, hide_top_px=110, hide_bottom_px = 20, height=800)
