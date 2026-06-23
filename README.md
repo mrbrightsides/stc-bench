@@ -1,9 +1,8 @@
-# STC Bench ⚡
+# STC Bench 🚀
 
 **Smart Contract Testing & Benchmarking Platform**
 
 Platform profesional untuk benchmarking dan analisis performa smart contract Ethereum dengan visualisasi real-time, AI-powered insights, dan persistent storage menggunakan SpacetimeDB.
-Tujuannya: mengeksekusi skenario uji, mencatat detail transaksi, lalu men-translate hasilnya ke format standar (CSV/NDJSON) yang siap divisualisasikan di STC Analytics.
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.3-black)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.1-blue)](https://react.dev/)
@@ -488,16 +487,6 @@ abc-123,0x5a3b...,2024-01-15T10:30:01Z,2024-01-15T10:30:03Z,1250,success,65000,2
 {"type":"bench_tx","run_id":"abc-123","tx_hash":"0x5a3b...",...}
 ```
 
-### Format Output
-
-bench_runs.csv
-| run\_id | timestamp | network | scenario | contract | function\_name | concurrency | tx\_per\_user | tps\_avg | tps\_peak | p50\_ms | p95\_ms | success\_rate |
-| ------- | --------- | ------- | -------- | -------- | -------------- | ----------- | ------------- | -------- | --------- | ------- | ------- | ------------- |
-
-bench_tx.csv
-| run\_id | tx\_hash | submitted\_at | mined\_at | latency\_ms | status | gas\_used | gas\_price\_wei | block\_number | function\_name |
-| ------- | -------- | ------------- | --------- | ----------- | ------ | --------- | --------------- | ------------- | -------------- |
-
 ---
 
 ## 🔌 API Reference
@@ -747,7 +736,10 @@ MIT License - feel free to use in your projects!
 
 Need help? Reach out:
 
-- 📧 Email: support@elpeef.com
+- 📧 Email: support@stcbench.io
+- 💬 Discord: [Join our community](#)
+- 🐦 Twitter: [@stcbench](#)
+- 📖 Docs: [docs.stcbench.io](#)
 
 ---
 
